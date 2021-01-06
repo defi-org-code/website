@@ -105,9 +105,13 @@ div.TitleSection .BackgroundCircles > img {
   width: 100vmax;
 }
 
+div.LogoSection {
+  flex: 2;
+  align-items:center;
+}
+
 div.TitleSection img.logo {
   width: 50px;
-  flex: 2;
 }
 
 div.TitleSection h1 {
@@ -130,6 +134,19 @@ div.TitleSection a, div.TitleSection a:visited {
 
 div.TitleSection a:hover {
   text-decoration: underline;
+}
+
+.StrategicPartnersSection>div {
+  margin: 10px;
+}
+
+.StrategicPartnersList .logo {
+  margin-right: 40px;
+  width: 150px;
+}
+
+.StrategicPartnersList .logo:last-child {
+  margin-right: 0;
 }
 
 h1 {
