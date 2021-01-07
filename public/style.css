@@ -76,6 +76,18 @@ button {
   text-shadow: none;
 }
 
+div.PartnersSection {
+  position: relative;
+  /*min-height: 50vh;*/
+  /*padding: 50px;*/
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #06336a;
+  overflow: hidden;
+}
+
 div.TitleSection {
   position: relative;
   min-height: 50vh;
@@ -105,9 +117,13 @@ div.TitleSection .BackgroundCircles > img {
   width: 100vmax;
 }
 
+div.LogoSection {
+  flex: 2;
+  align-items:center;
+}
+
 div.TitleSection img.logo {
   width: 50px;
-  flex: 2;
 }
 
 div.TitleSection h1 {
@@ -132,6 +148,29 @@ div.TitleSection a:hover {
   text-decoration: underline;
 }
 
+.StrategicPartnersSection>div {
+  margin: 10px;
+}
+
+.StrategicPartnersList .logo {
+  margin-right: 40px;
+  width: 150px;
+}
+
+.StrategicPartnersList .logo:last-child {
+  margin-right: 0;
+}
+
+.StrategicPartnersLabel {
+  background-color: #1bf6a9;
+  margin-top:30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+  font-weight: bold;
+  font-size: 16px;
+}
 h1 {
   font-size: 4em;
   line-height: 1em;
@@ -216,7 +255,7 @@ div.DarkAbstract:before {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;  
+  height: 100%;
   z-index: 0;
   background-image: url("assets/dark-abstract.svg");
   background-position: left;
