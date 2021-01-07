@@ -152,9 +152,22 @@ div.TitleSection a:hover {
   margin: 10px;
 }
 
-.StrategicPartnersList .logo {
-  margin-right: 40px;
-  width: 150px;
+.StrategicPartnersList .binanceLogo {
+  width: 35vw;
+  max-width: 230px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.StrategicPartnersList .orbsLogo {
+  width: 35vw;
+  max-width: 230px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.StrategicPartnersList .orbsLogo img {
+  transform: scale(0.75 );
 }
 
 .StrategicPartnersList .logo:last-child {
