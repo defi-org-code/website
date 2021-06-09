@@ -163,7 +163,12 @@ div.TitleSection a:hover {
   width: 35vw;
   max-width: 230px;
   height: auto;
-  margin-left: 10px;
+}
+
+.StrategicPartnersList .moonstakeLogo {
+  width: 35vw;
+  max-width: 230px;
+  height: auto;
 }
 
 .StrategicPartnersList .orbsLogo img {
