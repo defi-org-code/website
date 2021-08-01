@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
@@ -13,7 +13,7 @@ body {
 }
 
 button {
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
@@ -30,9 +30,9 @@ button {
   border: none;
   vertical-align: baseline;
   background: #e0e1e2 none;
-  color: rgba(0,0,0,.6);
-  margin: 0 .25em 0 0;
-  padding: .98571429em 1.5em .78571429em;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 0.25em 0 0;
+  padding: 0.98571429em 1.5em 0.78571429em;
   text-transform: none;
   text-shadow: none;
   font-weight: 700;
@@ -40,25 +40,31 @@ button {
   font-style: normal;
   text-align: center;
   text-decoration: none;
-  border-radius: .28571429rem;
-  -webkit-box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34,36,38,.15) inset;
-  box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34,36,38,.15) inset;
+  border-radius: 0.28571429rem;
+  -webkit-box-shadow: 0 0 0 1px transparent inset,
+    0 0 0 0 rgba(34, 36, 38, 0.15) inset;
+  box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, 0.15) inset;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: opacity .1s ease,background-color .1s ease,color .1s ease,background .1s ease,-webkit-box-shadow .1s ease;
-  transition: opacity .1s ease,background-color .1s ease,color .1s ease,background .1s ease,-webkit-box-shadow .1s ease;
-  transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
-  transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease,-webkit-box-shadow .1s ease;
+  -webkit-transition: opacity 0.1s ease, background-color 0.1s ease,
+    color 0.1s ease, background 0.1s ease, -webkit-box-shadow 0.1s ease;
+  transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease,
+    background 0.1s ease, -webkit-box-shadow 0.1s ease;
+  transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease,
+    box-shadow 0.1s ease, background 0.1s ease;
+  transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease,
+    box-shadow 0.1s ease, background 0.1s ease, -webkit-box-shadow 0.1s ease;
 }
 
 .ui.button:hover {
   background-color: #cacbcd;
   background-image: none;
-  -webkit-box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34,36,38,.15) inset;
-  box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34,36,38,.15) inset;
-  color: rgba(0,0,0,.8);
+  -webkit-box-shadow: 0 0 0 1px transparent inset,
+    0 0 0 0 rgba(34, 36, 38, 0.15) inset;
+  box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, 0.15) inset;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .ui.primary.button {
@@ -66,8 +72,8 @@ button {
   color: #fff;
   text-shadow: none;
   background-image: none;
-  -webkit-box-shadow: 0 0 0 0 rgba(34,36,38,.15) inset;
-  box-shadow: 0 0 0 0 rgba(34,36,38,.15) inset;
+  -webkit-box-shadow: 0 0 0 0 rgba(34, 36, 38, 0.15) inset;
+  box-shadow: 0 0 0 0 rgba(34, 36, 38, 0.15) inset;
 }
 
 .ui.primary.button:hover {
@@ -119,7 +125,7 @@ div.TitleSection .BackgroundCircles > img {
 
 div.LogoSection {
   flex: 2;
-  align-items:center;
+  align-items: center;
 }
 
 div.TitleSection img.logo {
@@ -139,7 +145,8 @@ div.TitleSection .ui.button {
   margin-top: 50px;
 }
 
-div.TitleSection a, div.TitleSection a:visited {
+div.TitleSection a,
+div.TitleSection a:visited {
   color: #fff;
   text-decoration: none;
 }
@@ -148,7 +155,7 @@ div.TitleSection a:hover {
   text-decoration: underline;
 }
 
-.StrategicPartnersSection>div {
+.StrategicPartnersSection > div {
   margin: 10px;
 }
 
@@ -172,7 +179,7 @@ div.TitleSection a:hover {
 }
 
 .StrategicPartnersList .orbsLogo img {
-  transform: scale(0.75 );
+  transform: scale(0.75);
 }
 
 .StrategicPartnersList .logo:last-child {
@@ -181,7 +188,7 @@ div.TitleSection a:hover {
 
 .StrategicPartnersLabel {
   background-color: #1bf6a9;
-  margin-top:30px;
+  margin-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 6px;
@@ -244,7 +251,7 @@ div.IconList .column {
   font-weight: 400;
 }
 
-@media (min-device-width : 768px) {
+@media (min-device-width: 768px) {
   div.IconList .column {
     max-width: 14vmax;
   }
@@ -310,7 +317,7 @@ ul.BulletList {
   list-style-type: square;
 }
 
-@media (min-device-width : 768px) {
+@media (min-device-width: 768px) {
   ul.BulletList {
     padding-right: 20vw;
   }
@@ -321,7 +328,7 @@ ul.BulletList li {
 }
 
 ul.BulletList span.highlight {
-  color: #00EFC4;
+  color: #00efc4;
 }
 
 div.LightSection h2 {
@@ -339,7 +346,7 @@ ol.NumberList {
   counter-reset: item;
 }
 
-@media (min-device-width : 768px) {
+@media (min-device-width: 768px) {
   ol.NumberList {
     padding-right: 25vw;
   }
@@ -371,7 +378,7 @@ p.WallText b {
 }
 
 div.HighlightNote {
-  background-color: #00EFC4;
+  background-color: #00efc4;
   color: #000;
   position: absolute;
   margin-right: 30px;
@@ -417,8 +424,9 @@ div.SubmitDetails {
   margin-top: 60px;
 }
 
-a.highlight, a.highlight:visited {
-  color: #00EFC4;
+a.highlight,
+a.highlight:visited {
+  color: #00efc4;
   text-decoration: none;
 }
 
@@ -430,14 +438,47 @@ div.Footer {
   background-color: #fff;
   color: #666;
   padding: 80px 30px 30px 30px;
-
 }
 
-div.Footer a, div.Footer a:visited {
+div.Footer a,
+div.Footer a:visited {
   color: #666;
   text-decoration: none;
 }
 
 div.Footer a:hover {
   text-decoration: underline;
+}
+div.twitter {
+  overflow: hidden;
+}
+p.twitter-title {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: normal;
+  margin: 0px;
+}
+p.twitter-title strong {
+  font-size: 600;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+a.twitter-link {
+  text-decoration: none;
+}
+p.twitter-title span {
+  background: -webkit-linear-gradient(180deg, #ffc843, #43c7ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div.twitter-animation {
+  max-width: 1200px;
+  width: 100%;
+  min-width: 500px;
+  height: auto;
 }
