@@ -1,0 +1,29 @@
+.top-story {
+  height: 200px;
+  a {
+    gap: 15px;
+  }
+  .post {
+    &-description {
+      display: -webkit-box !important;
+    }
+    &-title {
+      font-size: 19px;
+      line-height: 28px;
+      font-family: $text-font;
+      margin-bottom: 20px;
+    }
+    &-bottom {
+      margin-top: auto;
+    }
+    &-content {
+      padding-right: 30px;
+      padding-bottom: 15px;
+      padding-top: 20px;
+    }
+    &-img {
+      max-width: 300px;
+      height: 100%;
+    }
+  }
+}

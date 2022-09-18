@@ -1,0 +1,338 @@
+@media only screen and (max-width: 1600px) {
+  .notifications {
+    .contribute {
+      &-example {
+        &-body {
+          padding: 35px;
+          width: 35%;
+        }
+
+        &-hero {
+          width: 65%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1550px) {
+  .notifications {
+    .hero {
+      &-description {
+        zoom: 0.88;
+      }
+
+      &-image {
+        zoom: 0.88;
+      }
+    }
+
+    .projects {
+      margin-top: 150px;
+
+      &-title {
+        h3 {
+          font-size: 24px;
+          line-height: 30px;
+        }
+      }
+    }
+
+    .contribute {
+      margin-top: 120px;
+      padding-top: 100px;
+
+      &-title {
+        font-size: 24px;
+        line-height: 30px;
+      }
+
+      &-example {
+        &-body {
+          h4 {
+            margin-bottom: 30px;
+          }
+
+          p {
+            max-width: 370px;
+            font-size: 17px;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+
+    .integrations {
+      &-list {
+        .integration {
+          height: 270px;
+          padding: 33px 0px 27px 0px;
+
+          &-image {
+            width: 70px;
+            height: 70px;
+          }
+        }
+
+        #integration-pr {
+          & > p {
+            font-size: 20px;
+          }
+
+          .link-button {
+            font-size: 16px;
+            padding: 0px 30px;
+          }
+        }
+      }
+    }
+
+    .alerts {
+      padding-top: 70px;
+      padding-bottom: 50px;
+      &-description {
+        zoom: 0.88;
+      }
+
+      &-right {
+        zoom: 0.85;
+      }
+    }
+    .apps {
+      zoom: 0.88;
+    }
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .notifications {
+    .hero {
+      &-description {
+        zoom: 0.79;
+      }
+
+      &-image {
+        zoom: 0.75;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .notifications {
+    .alerts {
+      padding-top: 70px;
+      padding-bottom: 30px;
+      &-description {
+        zoom: 0.8;
+      }
+
+      &-right {
+        zoom: 0.78;
+      }
+    }
+
+    .integrations {
+      &-list {
+        gap: 16px;
+
+        .integration {
+          width: calc(20% - 13px);
+          height: 250px;
+          padding: 33px 0px 27px 0px;
+
+          h5 {
+            font-size: 20px;
+          }
+
+          &-image {
+            width: 60px;
+            height: 60px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .notifications {
+    .hero {
+      flex-direction: column;
+      align-items: center;
+      &-description {
+        padding-top: 0px;
+        zoom: 1;
+        max-width: 500px;
+        h1 {
+          font-size: 30px;
+          line-height: 50px;
+        }
+      }
+
+      &-image {
+        zoom: 1;
+        width: 100%;
+        max-width: 330px;
+      }
+    }
+    .contribute {
+      &-example {
+        max-width: 700px;
+        flex-direction: column;
+        &-hero {
+          width: 100%;
+          padding: 0px;
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+        &-body {
+          padding: 20px;
+          width: 100%;
+          p {
+            max-width: unset;
+          }
+        }
+      }
+    }
+    .alerts {
+      margin-top: 100px;
+      &-grid {
+        flex-direction: column;
+        align-items: center;
+        max-width: 500px;
+      }
+      &-description {
+        padding-right: 0px;
+        zoom: 1;
+        h3 {
+          font-size: 34px;
+          margin-top: 20px;
+          line-height: 50px;
+          margin-bottom: 20px;
+        }
+        &-body {
+          p {
+            font-size: 18px;
+            line-height: 30px;
+          }
+        }
+      }
+      &-right {
+        zoom: 1;
+        margin-top: 80px;
+        right: 0px;
+        width: 400px;
+      }
+    }
+    .integrations {
+      &-list {
+        justify-content: center;
+        .integration {
+          width: 200px;
+          height: 220px;
+        }
+      }
+    }
+
+    .apps {
+      margin-top: 80px;
+      &-title {
+        font-size: 34px;
+        line-height: 50px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .notifications {
+    .hero {
+      &-description {
+        h1 {
+          line-height: 40px;
+          margin-bottom: 20px;
+        }
+        & > p {
+          line-height: 30px;
+          font-size: 18px;
+        }
+        a {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .contribute {
+      padding-top: 60px;
+      margin-top: 60px;
+      &-title {
+        font-size: 20px;
+        margin-bottom: 40px;
+      }
+      &-bottom {
+        margin-top: 60px;
+        h5 {
+          font-size: 20px;
+        }
+        &-buttons {
+          .link-button {
+            padding: 0px 30px;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .integrations {
+      margin-top: 80px;
+      &-list {
+        gap: 12px;
+        justify-content: center;
+        .integration {
+          width: calc(50% - 8px);
+          height: 200px;
+          h5 {
+            font-size: 16px;
+          }
+          &-image {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 20px;
+          }
+        }
+        #integration-pr {
+          & > p {
+            font-size: 16px;
+          }
+          .link-button {
+            font-size: 14px;
+            padding: 0px 20px;
+          }
+        }
+      }
+    }
+    .alerts {
+      &-description {
+        h3 {
+          font-size: 24px;
+          line-height: 32px;
+        }
+      }
+      &-right {
+        width: 320px;
+      }
+    }
+    .apps {
+      &-title {
+        margin-bottom: 25px;
+        font-size: 26px;
+        line-height: 32px;
+        max-width: 300px;
+      }
+      &-body {
+        p {
+          font-size: 18px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}

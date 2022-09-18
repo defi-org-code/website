@@ -1,0 +1,45 @@
+#notification-page {
+  .navbar {
+    background: #00063e;
+    &-menu {
+      background: #00063e;
+    }
+  }
+}
+
+.notifications {
+  font-family: $notifications-main-font;
+  background: white;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  a {
+    text-decoration: none;
+  }
+  .grid {
+    max-width: 1440px;
+    width: calc(100% - 120px);
+    margin: 0 auto;
+  }
+
+  .link-button {
+    background: linear-gradient(264.34deg, #3d60e1 27%, #d44cd1 91.31%);
+    border-radius: 20px;
+    color: white;
+    padding: 0px 46px;
+    font-weight: 600;
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .notifications {
+    .grid {
+      width: calc(100% - 40px);
+    }
+  }
+}
