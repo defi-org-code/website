@@ -1,0 +1,143 @@
+@import "./protocols.scss";
+@import "./how-it-works.scss";
+@import "./layer3.scss";
+@import "./you-will-get.scss";
+
+.accelerator {
+  position: relative;
+  &-header {
+    .partners-img {
+      width: 420px;
+      margin-bottom: 525px;
+    }
+    &-partners {
+      margin-bottom: 125px;
+      width: 426px;
+      top: 0px;
+      left: 0px;
+    }
+  }
+  .cloud {
+    right: 0px;
+    width: 850px;
+    top: 120px;
+  }
+
+  &-banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 205px;
+    padding: 40px 30px 30px 30px;
+    gap: 40px;
+
+    h3 {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center;
+    }
+    .link {
+      padding: 0px 72px;
+    }
+  }
+
+  &-media {
+    background: radial-gradient(
+      73.06% 73.06% at 50% 50%,
+      rgba(255, 255, 255, 0.21) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    padding: 70px 0px 90px 0px;
+    margin-top: 210px;
+    &-list {
+      flex-wrap: nowrap;
+    }
+    &-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      &-border {
+        position: absolute;
+        top: 0px;
+        width: calc(50% - 170px);
+        height: 80px;
+        &-left {
+          left: -18px;
+        }
+        &-right {
+          right: -18px;
+        }
+      }
+
+      .title {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 35px;
+        text-align: center;
+      }
+    }
+    &-list {
+      padding-top: 60px;
+    }
+  }
+}
+
+@media only screen and (min-width: $mobile) {
+  .accelerator {
+    .common-header {
+      margin-top: 150px;
+      margin-bottom: 40px;
+      &-body {
+        max-width: 580px;
+      }
+      &-bg {
+        width: 100%;
+        top: 50%;
+        transform: translate(0, -50%);
+        object-fit: cover;
+        height: 400px;
+      }
+      &-asset {
+        width: 680px;
+        position: relative;
+        top: -100px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .accelerator {
+    &-header {
+      .partners-img {
+        display: none;
+      }
+    }
+    &-banner {
+      h3 {
+        font-size: 18px;
+        line-height: 25px;
+      }
+    }
+    &-media {
+      margin-top: 100px;
+      .secondary-grid {
+        max-width: 400px;
+      }
+      &-header {
+        img {
+          display: none;
+        }
+      }
+      &-list {
+        flex-direction: column;
+        align-items: center;
+        .post {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

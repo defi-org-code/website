@@ -1,0 +1,13 @@
+layout: index
+script: notification-protocol/index
+id: notification-page
+main:
+  - index.md
+
+navbar:
+  - /_shared/navbar/index.md
+footer:
+  - /_shared/footer/index.md
+
+description: "The Open DeFi Notifications Protocol: Get Real-time Notifications on your DeFi Positions"
+title: DeFi Notifications

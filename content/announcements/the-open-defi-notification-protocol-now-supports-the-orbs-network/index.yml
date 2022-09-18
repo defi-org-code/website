@@ -1,0 +1,11 @@
+layout: index
+script: announcement-page
+
+main:
+  - index.md
+
+navbar:
+  - /_shared/navbar/index.md
+
+image: assets/images/announcements/the-open-defi-notification-protocol-now-supports-the-orbs-network/main.jpeg
+title: "The Open DeFi Notification Protocol Now Supports The Orbs Network"

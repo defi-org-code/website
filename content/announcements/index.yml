@@ -1,0 +1,11 @@
+layout: index
+script: announcements
+main:
+  - index.md
+navbar:
+  - /_shared/navbar/index.md
+footer:
+  - /_shared/footer/index.md
+
+title: "DeFi.org - Announcements"
+description: "Stay up to date with everything that’s going on in the DeFi.org metaverse."

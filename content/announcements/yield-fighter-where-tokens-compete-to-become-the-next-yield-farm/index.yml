@@ -1,0 +1,12 @@
+layout: index
+script: announcement-page
+
+main:
+  - index.md
+
+navbar:
+  - /_shared/navbar/index.md
+footer:
+  - /_shared/footer/index.md
+image: assets/images/announcements/yield-fighter-where-tokens-compete-to-become-the-next-yield-farm/main.png
+title: "Yield Fighter — where tokens compete to become the next yield farm"

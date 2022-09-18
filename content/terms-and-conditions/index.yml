@@ -1,0 +1,14 @@
+layout: index
+
+main:
+  - index.md
+navbar:
+  - /_shared/navbar/index.md
+footer:
+  - /_shared/footer/index.md
+
+title: ""
+description: 
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:

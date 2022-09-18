@@ -1,0 +1,12 @@
+layout: index
+script: announcement-page
+
+main:
+  - index.md
+
+navbar:
+  - /_shared/navbar/index.md
+footer:
+  - /_shared/footer/index.md
+image: assets/images/announcements/the-open-defi-notification-protocol-now-supports-spiritswap-on-fantom/main.jpeg
+title: "The Open DeFi Notification Protocol Now Supports SpiritSwap on Fantom!"

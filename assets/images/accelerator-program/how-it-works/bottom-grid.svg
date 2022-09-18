@@ -1,0 +1,44 @@
+<svg width="517" height="71" viewBox="0 0 517 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.3" clip-path="url(#clip0_671_11176)">
+<path d="M74.0561 0.271718L442.944 0.271686L516.369 70.7266L0.631211 70.7266L74.0561 0.271718Z" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M10.5019 61.2539L506.498 61.2539" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M19.6471 52.4766L497.353 52.4766" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M28.1424 44.3301L488.857 44.3301" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M36.052 36.7403L480.948 36.7402" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M43.4382 29.6543L473.562 29.6543" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M50.3461 23.0196L466.649 23.0195" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M56.8309 16.8067L460.169 16.8066" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M62.918 10.9649L454.082 10.9648" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M68.6496 5.46292L448.351 5.46289" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M406.053 0.277876L464.796 70.7266" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M369.167 0.277875L413.219 70.7266" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M332.276 0.277874L361.646 70.7266" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M295.386 0.277872L310.073 70.7266" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M258.5 0.277919L258.5 70.7266" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M221.609 0.277871L206.927 70.7266" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M184.723 0.277871L155.35 70.7266" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M147.833 0.277871L103.777 70.7266" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<path d="M110.942 0.277871L52.2043 70.7266" stroke="white" stroke-width="0.88" stroke-miterlimit="10"/>
+<g opacity="0.5" filter="url(#filter0_f_671_11176)">
+<ellipse cx="249.714" cy="29.7226" rx="119.714" ry="20.7226" fill="#EC455E"/>
+<g filter="url(#filter1_f_671_11176)">
+<ellipse cx="249.714" cy="29.7226" rx="119.714" ry="20.7226" fill="#EC455E"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_671_11176" x="90" y="-31" width="319.428" height="121.445" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="20" result="effect1_foregroundBlur_671_11176"/>
+</filter>
+<filter id="filter1_f_671_11176" x="110" y="-11" width="279.428" height="81.4453" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_671_11176"/>
+</filter>
+<clipPath id="clip0_671_11176">
+<rect width="517" height="71" fill="white" transform="translate(517 71) rotate(180)"/>
+</clipPath>
+</defs>
+</svg>

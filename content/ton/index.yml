@@ -1,0 +1,12 @@
+layout: index
+script: ton
+navbar:
+  - /_shared/navbar/index.md
+
+footer:
+  - /_shared/footer/index.md
+main:
+  - index.md
+
+title: "DeFi.org - The Open Network (TON)"
+description: "Bringing DeFi to mass adoption via TON Blockchain, the groundbreaking L1. If Ethereum is the infrastructure for apps targeting power users, TON is the infrastructure for apps targeting the masses. Much like Telegram, it is mobile first, consumer oriented and built for the Internet scale of billions. If blockchain ever reaches the masses, it will be via TON."

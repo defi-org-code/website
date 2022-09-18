@@ -1,0 +1,13 @@
+layout: index
+script: about-us
+main:
+  - index.md
+
+navbar:
+  - /_shared/navbar/index.md
+
+footer:
+  - /_shared/footer/index.md
+
+title: "DeFi.org - About Us"
+description: "Together we educate - by teaching developers and users about practical decentralization, invest - by funding the projects we believe in so they can see the light of day, accelerate - by setting projects up for success and incubating when necessary, and build - by taking an active role in contributing to the ecosystem with our own hands."

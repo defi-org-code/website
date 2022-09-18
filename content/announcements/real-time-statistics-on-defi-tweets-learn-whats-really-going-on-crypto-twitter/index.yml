@@ -1,0 +1,14 @@
+layout: index
+script: announcement-page
+
+main:
+  - index.md
+
+footer:
+  - /_shared/footer/index.md
+
+navbar:
+  - /_shared/navbar/index.md
+
+image: assets/images/announcements/real-time-statistics-on-defi-tweets-learn-whats-really-going-on-crypto-twitter/main.png
+title: "Real-time Statistics on DeFi Tweets — Learn What’s Really Going On Crypto Twitter"

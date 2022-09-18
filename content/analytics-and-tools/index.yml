@@ -1,0 +1,13 @@
+layout: index
+
+main:
+  - index.md
+
+navbar:
+  - /_shared/navbar/index.md
+
+footer:
+  - /_shared/footer/index.md
+
+title: "DeFi.org - Analytics and Tools"
+description: "A collection of tools, analytics and calculators to help navigate the DeFi markets: DeFi Notifications Mobile App, MyNFT.fyi, DeFi Twitter Trends Dashboard."

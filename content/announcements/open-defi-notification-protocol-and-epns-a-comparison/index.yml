@@ -1,0 +1,12 @@
+layout: index
+script: announcement-page
+
+main:
+  - index.md
+
+navbar:
+  - /_shared/navbar/index.md
+footer:
+  - /_shared/footer/index.md
+
+title: "Open DeFi Notification Protocol and EPNS — a Comparison"

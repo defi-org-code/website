@@ -1,0 +1,48 @@
+$line-padding: 60px;
+
+.home {
+  .tooltip {
+    background: rgba(21, 21, 21, 0.7);
+    padding: 24px 40px 25px 33px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 365px;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.3s all;
+    text-decoration: none;
+    .link {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      width: 218px;
+    }
+
+    &-body {
+      h3 {
+        color: $yellow;
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 32px;
+        margin-bottom: 12px;
+      }
+      p {
+        font-weight: 300;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .home {
+    .tooltip {
+      // position: fixed !important;
+      // transform: translate(-50%, -50%);
+      // top: 50%;
+      // left: 50%;
+      zoom: 0.7;
+    }
+  }
+}

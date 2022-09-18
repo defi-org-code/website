@@ -1,0 +1,12 @@
+layout: index
+script: home
+main:
+  - home/index.md
+navbar:
+  - /_shared/navbar/index.md
+
+title: "DeFi.org - a community of DeFi thought leaders"
+description: "DeFi.org is a community of DeFi thought leaders. Together we are building an ecosystem of fully decentralized financial applications on leading L1 blockchains like Ethereum and TON. We educate, invest, accelerate and build. Powered by the Orbs Network."
+og_locale_alternate: ko_KR
+og_locale: en_US
+image:

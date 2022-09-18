@@ -1,0 +1,14 @@
+layout: index
+script: accelerator-program
+
+main:
+  - index.md
+
+navbar:
+  - /_shared/navbar/index.md
+
+footer:
+  - /_shared/footer/index.md
+
+title: "DeFi.org - Accelerator Program"
+description: "Helping founders launch the next wave of DeFi innovation. Apply now! We are passionate about helping bootstrap new projects and protocols that are built on DeFi.org principles."

@@ -1,0 +1,11 @@
+layout: index
+script: defi-belief-system
+main:
+  - index.md
+navbar:
+  - /_shared/navbar/index.md
+footer:
+  - /_shared/footer/index.md
+
+title: "DeFi.org - DeFi Belief System"
+description: "Our manifesto for a practical decentralized ecosystem of dapps: Practical decentralization - Radical transparency - Community governance - Composable stack - Sustainable tokenomics - Responsible risk - Fair launch"

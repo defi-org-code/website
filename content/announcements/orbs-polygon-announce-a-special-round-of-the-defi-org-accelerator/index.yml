@@ -1,0 +1,13 @@
+layout: index
+script: announcement-page
+
+main:
+  - index.md
+
+navbar:
+  - /_shared/navbar/index.md
+footer:
+  - /_shared/footer/index.md
+
+image: assets/images/announcements/orbs-polygon-announce-a-special-round-of-the-defi-org-accelerator/main.jpeg
+title: "Orbs & Polygon Announce a Special Round of the DeFi.org Accelerator!"

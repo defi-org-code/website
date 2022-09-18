@@ -1,0 +1,34 @@
+.socials {
+  display: flex;
+  gap: 16px;
+  top: 80px;
+  a {
+    position: relative;
+    transition: 0.2s all;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+    &:hover {
+      p {
+        color: #6ecce8;
+      }
+    }
+  }
+  p {
+    transition: 0.2s all;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 65px;
+    display: none;
+  }
+}

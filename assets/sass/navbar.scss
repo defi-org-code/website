@@ -1,0 +1,154 @@
+.navbar {
+  position: fixed;
+  left: 0%;
+  top: 0px;
+  z-index: 999;
+  width: 100%;
+  transition: 0.2s all;
+  height: 80px;
+  &-logo {
+    gap: 10px;
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    p {
+      font-weight: 500;
+      font-size: 20px;
+    }
+    img {
+      width: 60px;
+      object-fit: contain;
+    }
+  }
+  &-open {
+    img {
+      width: 26px;
+      height: 26px;
+    }
+  }
+  &-hidden {
+    transform: translate(0, -100%);
+  }
+  &-active {
+    background: #130a23;
+  }
+  &-grid {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @extend .navbar-grid;
+  }
+  &-menu {
+    position: fixed;
+    width: calc(100vw - 100px);
+    max-width: 800px;
+    top: 0px;
+    height: calc(100vh + 100px);
+    right: 0px;
+    background: #29103b;
+    padding: 100px 60px 0px 90px;
+    transition: 0.25s all;
+    opacity: 0;
+    &-active {
+      transform: translate(0%) !important;
+      opacity: 1;
+    }
+    &-close {
+      position: absolute;
+      right: 70px;
+      top: 30px;
+      img {
+        width: 24px;
+        object-fit: contain;
+      }
+    }
+
+    &-navigation {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      .navigation-link {
+        width: fit-content;
+
+        &-icon {
+          display: none;
+        }
+        a {
+          position: relative;
+          text-decoration: none;
+          font-weight: 500;
+          font-size: 25px;
+          padding-bottom: 15px;
+        }
+        .blur-item {
+          position: absolute;
+          bottom: 0px;
+          border-radius: unset;
+          height: 4px;
+          width: calc(100% + 50px);
+          opacity: 0;
+          transition: 0.2s all;
+          figure {
+            border-radius: unset;
+          }
+        }
+        &:hover {
+          .blur-item {
+            opacity: 1;
+          }
+        }
+      }
+
+      .active-link {
+        .blur-item {
+          opacity: 1;
+        }
+      }
+    }
+    .socials {
+      margin-top: 60px;
+      a {
+        width: 33px;
+        height: 33px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .navbar {
+    &-menu {
+      &-close {
+        right: 50px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .navbar {
+    &-menu {
+      padding: 40px;
+      padding-top: 80px;
+      width: calc(100vw - 50px);
+      &-close {
+        right: 20px;
+      }
+
+      &-navigation {
+        gap: 25px;
+        .navigation-link {
+          .blur-item {
+            height: 2px;
+          }
+          a {
+            font-size: 17px;
+            padding-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+}

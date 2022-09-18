@@ -1,0 +1,36 @@
+{
+  "name": "orbs-website",
+  "version": "1.0.0",
+  "description": "Website for Orbs.com",
+  "main": "index.js",
+  "homepage": "https://defi-org-code.github.io/website2/",
+  "scripts": {
+    "build": "cuttlebelle",
+    "sass-prebuild": "sass ./assets/sass/index.scss ./assets/css/index.css",
+    "watch-sass": "sass -w ./assets/sass/index.scss ./assets/css/index.css",
+    "watch": "yarn watch-sass & cross-env IS_DEV=true cuttlebelle -w",
+    "watch-prod": "yarn watch-sass &  cuttlebelle -w"
+  },
+  "cuttlebelle": {
+    "site": {
+      "markdownRenderer": "markdown.js"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "gh-pages": "^4.0.0",
+    "globe.gl": "^2.21.1",
+    "moment": "^2.29.1",
+    "node-html-parser": "^5.3.3",
+    "rss-generator": "0.0.3",
+    "sass": "^1.45.1",
+    "xml": "^1.0.1",
+    "xmlbuilder": "^15.1.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0"
+  }
+}

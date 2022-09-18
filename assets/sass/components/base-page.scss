@@ -1,0 +1,19 @@
+.base-page {
+    .main-grid{
+        max-width: 1000px;
+    }
+  padding-top: 200px;
+  h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: $text-font;
+  }
+  h4 {
+  }
+}
