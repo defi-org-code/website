@@ -4,7 +4,7 @@ framePosition: leftimage.png
 direction: bottom
 className: circle
 linkText: Learn more
-url: notifications-protocol
+url: notifications
 ---
 
 ### Notifications Protocol >>
