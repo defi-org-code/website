@@ -7,5 +7,5 @@ whiteImage:
   - white-image.md
 tooltip:
   - tooltip.md
-url: notifications-protocol
+url: notifications
 ---
