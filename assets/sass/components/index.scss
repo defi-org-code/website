@@ -7,9 +7,9 @@
 // }
 .clouds {
   position: absolute;
-  right: -50px;
   top: -50px;
-
+  width: 100%;
+  pointer-events: none;
   img {
     opacity: 0.3;
   }

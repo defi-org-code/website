@@ -1,10 +1,14 @@
 .analytics {
   .clouds {
+    right: unset;
+    width: 100%;
     &-1 {
       display: none;
     }
     &-2 {
-      right: 470px;
+      right: unset;
+      left: 50%;
+      transform: translate(-50%);
     }
   }
   &-globe-section {

@@ -176,13 +176,15 @@ $line-padding: 60px;
           animation: glow 1.5s ease-in-out infinite alternate;
         }
       }
+      &-acitve {
+      }
 
       z-index: 10;
       &:hover {
         z-index: 11;
         .tooltip {
-          pointer-events: all;
-          opacity: 1;
+          pointer-events: all !important;
+          opacity: 1 !important;
           z-index: 9999;
         }
         .home-main-asset-img {
@@ -195,6 +197,24 @@ $line-padding: 60px;
             display: none;
           }
         }
+      }
+    }
+  }
+
+  .active-asset {
+    .tooltip {
+      pointer-events: all !important;
+      opacity: 1 !important;
+      z-index: 9999;
+    }
+    .home-main-asset-img {
+      transform: scale(1.1);
+      .white {
+        opacity: 1 !important;
+        animation: unset;
+      }
+      .yellow {
+        display: none;
       }
     }
   }
