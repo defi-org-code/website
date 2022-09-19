@@ -11,17 +11,92 @@ createSlider("home-slider", {
   },
 });
 
+const delay = (time) => new Promise((resolve) => setTimeout(resolve, time));
+
+const assets = document.querySelectorAll(".home-main-asset");
+let count = 0;
+let intervalEnabled = true;
+let timeout;
+let isFirst = true;
+
+// const loopPopups = async () => {
+//   window.clearTimeout(timeout);
+//   timeout = setTimeout(async () => {
+//     while (intervalEnabled) {
+//       const asset = assets[count];
+//       await delay(isFirst ? 0 : 4000);
+//       isFirst = false;
+//       asset.classList.add("active-asset");
+//       await delay(3000);
+//       asset.classList.remove("active-asset");
+//       if (count === assets.length - 1) {
+//         count = 0;
+//       } else {
+//         count++;
+//       }
+//     }
+//   }, 4000);
+// };
+
+let interval;
+
+const loopAssets = async () => {
+  console.log("interval started");
+  const asset = assets[count];
+  isFirst = false;
+  asset.classList.add("active-asset");
+  await delay(3000);
+  asset.classList.remove("active-asset");
+  if (count === assets.length - 1) {
+    count = 0;
+  } else {
+    count++;
+  }
+};
+
+const runLoopInterval = async () => {
+  console.log("function started");
+  loopAssets();
+  interval = setInterval(async () => {
+    loopAssets();
+  }, 6000);
+};
+
+const startAssetsLoop = () => {
+  timeout = setTimeout(() => {
+    runLoopInterval();
+  }, 4000);
+};
+
+const stopAssetsLoop = () => {
+  window.clearTimeout(timeout);
+  window.clearInterval(interval);
+};
+
 const visitedKey = "defi_org_visited";
 
-const loadDesktopVideos = () => {
+const onDesktopLoad = () => {
   const loopContainer = document.getElementById("loop-container");
   const introVideo = document.getElementById("intro-video");
   const navbar = document.querySelector(".navbar");
-  console.log(localStorage.getItem(visitedKey));
+  const assets = document.querySelectorAll(".home-main-asset");
+
+  assets.forEach((asset) => {
+    asset.addEventListener("mouseenter", () => {
+      stopAssetsLoop();
+      assets.forEach((asset) => {
+        asset.classList.remove("active-asset");
+      });
+    });
+    asset.addEventListener("mouseleave", () => {
+      startAssetsLoop();
+    });
+  });
+
   if (localStorage.getItem(visitedKey)) {
     loopContainer.classList.remove("hidden");
     introVideo.classList.add("hidden");
-
+    startAssetsLoop();
     return;
   }
   navbar.style.opacity = 0;
@@ -32,23 +107,8 @@ const loadDesktopVideos = () => {
     loopContainer.classList.remove("hidden");
     localStorage.setItem(visitedKey, 1);
     navbar.style.opacity = 1;
+    startAssetsLoop();
   };
-};
-
-// window.addEventListener("beforeunload", (event) => {
-//   console.log(event);
-//   event.returnValue = "Are you sure you want to leave?";
-// });
-
-// window.onbeforeunload = (event) => {
-//   alert("test");
-//   console.log(event);
-//   debugger;
-//   localStorage.removeItem(visitedKey);
-// };
-
-const loadMobileVideos = () => {
-  const video = document.getElementById("mobile-video");
 };
 
 const onLoad = () => {
@@ -60,10 +120,9 @@ const onLoad = () => {
   console.log(mobileContainer);
 
   if (mobile) {
-    loadMobileVideos();
     mobileContainer.classList.remove("display-none");
   } else {
-    loadDesktopVideos();
+    onDesktopLoad();
     desktopContainer.classList.remove("display-none");
   }
 };

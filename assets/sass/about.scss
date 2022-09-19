@@ -10,9 +10,13 @@
   .clouds {
     &-1 {
       top: 5px;
+      left: 50%;
+      transform: translate(-50%);
     }
     &-2 {
       top: 120px;
+      left: 50%;
+      transform: translate(10%);
     }
   }
 

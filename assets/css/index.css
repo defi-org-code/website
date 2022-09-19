@@ -692,8 +692,8 @@ body {
   z-index: 11;
 }
 .home-main-asset:hover .tooltip {
-  pointer-events: all;
-  opacity: 1;
+  pointer-events: all !important;
+  opacity: 1 !important;
   z-index: 9999;
 }
 .home-main-asset:hover .home-main-asset-img {
@@ -704,6 +704,21 @@ body {
   animation: unset;
 }
 .home-main-asset:hover .home-main-asset-img .yellow {
+  display: none;
+}
+.home .active-asset .tooltip {
+  pointer-events: all !important;
+  opacity: 1 !important;
+  z-index: 9999;
+}
+.home .active-asset .home-main-asset-img {
+  transform: scale(1.1);
+}
+.home .active-asset .home-main-asset-img .white {
+  opacity: 1 !important;
+  animation: unset;
+}
+.home .active-asset .home-main-asset-img .yellow {
   display: none;
 }
 @keyframes glow {
@@ -939,11 +954,17 @@ body {
     padding-bottom: 10px;
   }
 }
+.analytics .clouds {
+  right: unset;
+  width: 100%;
+}
 .analytics .clouds-1 {
   display: none;
 }
 .analytics .clouds-2 {
-  right: 470px;
+  right: unset;
+  left: 50%;
+  transform: translate(-50%);
 }
 .analytics-globe-section {
   display: flex;
@@ -1942,6 +1963,21 @@ body {
 .accelerator {
   position: relative;
 }
+.accelerator .clouds img {
+  opacity: 0.3;
+}
+.accelerator .clouds-1 {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.accelerator .clouds-2 {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(10%);
+}
 .accelerator-header .partners-img {
   width: 420px;
   margin-bottom: 525px;
@@ -1951,11 +1987,6 @@ body {
   width: 426px;
   top: 0px;
   left: 0px;
-}
-.accelerator .cloud {
-  right: 0px;
-  width: 850px;
-  top: 120px;
 }
 .accelerator-banner {
   display: flex;
@@ -2262,8 +2293,9 @@ body {
 }
 .clouds {
   position: absolute;
-  right: -50px;
   top: -50px;
+  width: 100%;
+  pointer-events: none;
 }
 .clouds img {
   opacity: 0.3;
@@ -2592,13 +2624,21 @@ body {
   display: flex;
   flex-direction: column;
 }
+.belief .clouds {
+  right: unset;
+  width: 100%;
+}
 .belief .clouds-2 {
   top: 200px;
-  right: 600px;
+  right: unset;
+  left: 50%;
+  transform: translate(-65%);
 }
 .belief .clouds-1 {
   top: 0px;
-  right: 100px;
+  right: unset;
+  left: 50%;
+  transform: translate(0%);
 }
 .belief-sticky {
   top: 0px;
@@ -2801,9 +2841,13 @@ body {
 }
 .about .clouds-1 {
   top: 5px;
+  left: 50%;
+  transform: translate(-50%);
 }
 .about .clouds-2 {
   top: 120px;
+  left: 50%;
+  transform: translate(10%);
 }
 .about .top-story .post-img {
   max-width: 400px;
@@ -3544,6 +3588,8 @@ body {
 }
 .ton .clouds-1 {
   top: 50px;
+  left: 50%;
+  transform: translate(-52%);
 }
 .ton-first-section {
   display: flex;

@@ -5,13 +5,19 @@
   }
 
   .clouds {
+    right: unset;
+    width: 100%;
     &-2 {
       top: 200px;
-      right: 600px;
+      right: unset;
+      left: 50%;
+      transform: translate(-65%);
     }
     &-1 {
       top: 0px;
-      right: 100px;
+      right: unset;
+      left: 50%;
+      transform: translate(0%);
     }
   }
 
