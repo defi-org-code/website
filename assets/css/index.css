@@ -3179,6 +3179,9 @@ body {
   width: 100%;
   margin-bottom: 50px;
   margin-top: 40px;
+  height: 45vw;
+  max-height: 600px;
+  min-height: 260px;
 }
 .announcement-page-body #padding {
   height: 30px;
