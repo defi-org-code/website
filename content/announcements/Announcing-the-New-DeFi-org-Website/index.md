@@ -3,12 +3,11 @@ layout: pages/announcements/AnnouncementHandler
 backButton:
   - ../back-button.md
 
-date: Jul 21
-read_text: 3 min read
-link: defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol
-image: assets/images/announcements/defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol/main.jpeg
-title: "DeFi.org & DappRadar Launch $100k Developers Grant for The Open DeFi Notification Protocol!"
-posted_at: posted at Medium
+date: Oct 06
+read_text: 2 min read
+link: Announcing-the-New-DeFi-org-Website
+image: assets/images/announcements/Announcing-the-New-DeFi-org-Website/bg.jpg
+title: "Announcing the New DeFi.org Website!"
 author: Defi.org
 socials:
   - /announcements/authors/defi/socials.md
@@ -16,86 +15,70 @@ related:
 description: ""
 ---
 
-📢📢 CALLING ALL DEVELOPERS!!
+**After a lot of hard work and dedication, the new and improved defi.org website is finally live!** 
 
-[DeFi.org ](https://defi.org/)is excited to launch a new $100,000 developer grant program, in collaboration with [DappRadar](https://dappradar.com/), for The [Open DeFi Notification Protocol](https://defi.org/notifications/).
+The new website contains thought leadership about the world of DeFi - from defining practical decentralization to navigating the markets with a set of analytics tools. Presented to you by the Orbs project.
 
-![](/assets/images/announcements/defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol/2.png)
+So what are you waiting for?! Check out the new website here:
+https://defi.org/
 
-The Open DeFi Notification Protocol by [defi.org](https://defi.org/) is a free-for-use, community-inspired initiative to provide users with decentralized and free mobile notifications for all sorts of on-chain events. The Protocol is powered by the [Orbs network](https://www.orbs.com/) and will be executed by its decentralized network of independent nodes, known as the Orbs Guardians.
+<iframe src="https://www.youtube.com/embed/bvaBY7WRJkY" title="defi.org intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### $100,000 Developer Grant Program!
 
-This grant will focus on teams contributing new projects to the Notification protocol!
+### Explore the DeFi.org Metaverse
 
-The Open DeFi Notification Protocol is an open-source project allowing anyone to contribute and integrate notifications. With a quick and simple integration on Github, developers can provide free mobile notifications for any DeFi project for important events like accumulated pending rewards, price swings, near liquidations, stop loss, contract upgrades, new governance votes and more.
+The team went all-in on the WOW factor with the new website homepage! 
 
-Grant details:
+Enter the defi.org lounge, click on the interactive hotspots and explore the exciting tools and features of defi.org.
 
-- Start date: 30/05/22
-- End date: 30/09/22
-- Duration: 4 months
-- Grants: Available total of up to $100,000, with up to $10k per dev team
+![metaverse](/assets/images/announcements/Announcing-the-New-DeFi-org-Website/image1.png)
 
-Winners and final grant amounts will be chosen by a committee of the defi.org mentors who will score entries based on the following parameters:
 
-1.  Project contributions: team must contribute at least 1 project to be eligible for receiving the grant. However, more contributions will earn more points from the judges.
-2.  Active notifications: The more active notifications for your project contributions, the better!
-3.  Innovation: Teams are encouraged to make use of the existing projects and use-cases found in this [repo](https://github.com/open-defi-notification-protocol/projects). However, new and innovative use cases and integrations will earn extra points.
-4.  Social media presence: At least one tweet announcing your contribution tagging @orbs_network, @DappRadar, and @DefiOrg. However, additional social media activities such as educational blog posts, tutorial videos, etc., will get extra consideration from the judges.
 
-Once ready, dev teams need to submit their entry in this [FORM](https://docs.google.com/forms/d/e/1FAIpQLScWXOXHC0MkUiDwclLVw82gWzx60TAu5cORGAqYM0sKLLGjxg/viewform?usp=pp_url).
+Here’s a taste of some of the more intriguing things you’ll be able to find:
 
-A DeFi.org mentors committee will select winners, in their sole discretion, based on the criteria above.
+**DeFi Belief System page:**
 
-**So what are you waiting for?!**
+Our manifesto for a practical decentralized ecosystem of dapps: Practical decentralization - Radical transparency - Community governance - Composable stack - Sustainable tokenomics - Responsible risk - Fair launch.
 
-**Join us to earn up to $100,000 in developers grants!**
+_We at defi.org are committed to the Path set by these set of core beliefs!_
 
-### Developer Resources
 
-The best place to start is The Open DeFi Notification Protocol [Github](https://github.com/open-defi-notification-protocol), specifically this [README](https://github.com/open-defi-notification-protocol/projects/blob/master/README.md) file.
+**Accelerator Program page:**
 
-As mentioned above, anyone can contribute to the protocol. All this requires is implementing a simple JavaScript web3 class that extracts the notification from the chain data.
+Helping founders launch the next wave of DeFi innovation. Apply now! We are passionate about helping bootstrap new projects and protocols that are built on DeFi.org principles.
 
-This class is then contributed via PR to the protocol [Github repo](https://github.com/open-defi-notification-protocol/projects). The whole process takes about 30 minutes for someone familiar with the project's smart contracts. There's no need to run any backend, develop any UI or make any modification to the project's smart contracts.
+_Have an exciting new defi project? Apply now!_
 
-When a new user registers for this notification in the app (available on both [iOS](https://apps.apple.com/il/app/defi-notifications/id1588243632) and [Android](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp)), the protocol's many alert nodes will start executing the newly contributed JavaScript web3 class against every new mainnet block to extract fresh notifications. When any fresh notification is returned, the alert nodes will trigger a push notification and send it to the user.
 
-Here are additional information and links:
+**The Open Network (TON) page:**
 
-- [Github](https://github.com/open-defi-notification-protocol)
-- [Website](https://defi.org/notifications/)
-- Overview [blog post](https://medium.com/@defiorg/introducing-open-defi-notification-protocol-95a8712a94e0)
-- Notification app: [iOS](https://apps.apple.com/il/app/defi-notifications/id1588243632), [Android](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp)
-- [Twitter](https://twitter.com/DefiOrg)
-- [Telegram](https://t.me/defiorg)
-- [DeFi.org](https://defi.org/) website
+Bringing DeFi to mass adoption via TON Blockchain, the groundbreaking L1. If Ethereum is the infrastructure for apps targeting power users, TON is the infrastructure for apps targeting the masses. Much like Telegram, it is mobile first, consumer oriented and built for the Internet scale of billions. If blockchain ever reaches the masses, it will be via TON.
 
-### Integration Example: Aave
+_Find out how defi.org is building an ecosystem of fully decentralized financial applications on TON blockchain._
 
-Here is the integration that allows Aave users to get notified when their position health factor drops below 1.1:
 
-![](/assets/images/announcements/defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol/3.png)
+**Analytics and Tools page:**
 
-Once the PR is accepted, the project will immediately appear inside the mobile app with this new notification type enabled. You can control the project label, logo and colors by adding a small JSON file next to the class.
+A collection of tools, analytics and calculators to help navigate the DeFi markets: DeFi Notifications Mobile App, MyNFT.fyi, DeFi Twitter Trends Dashboard.
 
-![](/assets/images/announcements/defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol/3.png)
+
+**Announcements page:**
+
+Stay up to date with everything that’s going on in the DeFi.org metaverse: from a special accelerator round with Polygon, to a dev grant in collaboration with DappRadar, be the first to know!
+
+
+You’ll find all of this and much more in our new website! Enjoy!
+
 
 # separator
 
-DeFi.org is super excited to launch its first ever developers grant together with DappRaddar, the leading and most popular websites for crypto devs.
+The website has only just gone live so there might be a few glitches here and there. We invite everyone to browse through the pages and get back to us with any feedback you might have on our [Telegram](https://t.me/defiorg) group and on [Twitter](https://twitter.com/DefiOrg).
 
-We are looking forward to seeing what projects developers can contribute to the Open DeFi Notification Protocol in order to make it the standard notifications protocol for DeFi apps.
-
-Don't hesitate to contact us at the defi.org [Telegram channel](https://t.me/defiorg) for more information!
 
 # separator
 
-**About DeFi.org**
 
-The DeFi.org Accelerator is dedicated to supporting research, development of open-source software, and community engagement. The accelerator looks for projects that are built on the principles of fair distribution, community ownership, innovation, responsible approach to risk, sustainable economics and composability with the broader ecosystem.
+_DeFi.org is a community of DeFi thought leaders. Together we are building an ecosystem of fully decentralized financial applications on leading L1 blockchains like Ethereum and TON. We educate, invest, accelerate and build. Powered by the [Orbs Network](https://www.orbs.com/)._
 
-Participants get a variety of benefits, including mentorship, funding opportunities, and market exposure.
 
-Interested teams can apply to participate at [https://DeFi.org/](https://defi.org/).
