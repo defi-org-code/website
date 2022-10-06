@@ -2,6 +2,7 @@
 layout: pages/announcements/All
 
 list:
+  - ../defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol/index.md
   - ../the-open-defi-notification-protocol-now-supports-compound-finance/index.md
   - ../the-open-defi-notification-protocol-now-supports-notional-protocol/index.md
   - ../the-open-defi-notification-protocol-spotlight-trader-joe/index.md
