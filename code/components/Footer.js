@@ -20,6 +20,10 @@ function Footer({ links, socials, terms, contributed, _relativeURL, _ID }) {
           </a>
           <div className="contributed">{contributed}</div>
         </div>
+        <section className="footer-terms">
+          <a href="/defi-notifications-privacy-policy">Privacy policy</a>
+          <a href="/defi-notifications-terms-of-use">Terms of use</a>
+        </section>
       </MainGrid>
     </footer>
   );

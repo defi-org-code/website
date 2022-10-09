@@ -1,8 +1,6 @@
 ---
 layout: pages/notifications-protocol/index
 
-footer:
-  - footer/index.md
 
 hero:
   - hero/index.md
