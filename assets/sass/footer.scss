@@ -82,6 +82,19 @@
       }
     }
   }
+  &-terms {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    display: none;
+    a{
+      text-decoration: none;
+      font-family: $text-font;
+      font-size: 18px;
+      color: $blue;
+    }
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -108,6 +121,12 @@
     &-bottom {
       flex-direction: column;
       gap: 20px;
+    }
+    &-terms{
+      flex-direction: column;
+      gap: 20px;
+      align-items: flex-start;
+      margin-top: 30px;
     }
   }
 }

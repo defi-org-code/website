@@ -223,17 +223,17 @@ body {
   margin-right: auto;
 }
 
-.text-link-arrow a, .ton .common-header .text a, .ton .common-header .ton-table-header a, .ton .common-header .post-title a, .ton .common-header .post-description a, .ton .common-header .announcement-page-subtitle a, .ton .common-header .announcement-page-body p a, .announcement-page-body .ton .common-header p a,
+.text-link-arrow a, .ton .common-header .text a, .ton .common-header .policy ul li a, .policy ul .ton .common-header li a, .ton .common-header .ton-table-header a, .ton .common-header .post-title a, .ton .common-header .post-description a, .ton .common-header .announcement-page-subtitle a, .ton .common-header .announcement-page-body p a, .announcement-page-body .ton .common-header p a,
 .ton .common-header .announcement-page-body li a,
 .announcement-page-body .ton .common-header li a, .ton .common-header .ton-belief-item h4 a, .ton-belief-item .ton .common-header h4 a, .ton .common-header .ton-decetralized-table-body li a, .ton-decetralized-table-body .ton .common-header li a {
   position: relative;
 }
-.text-link-arrow a:hover, .ton .common-header .text a:hover, .ton .common-header .ton-table-header a:hover, .ton .common-header .post-title a:hover, .ton .common-header .post-description a:hover, .ton .common-header .announcement-page-subtitle a:hover, .ton .common-header .announcement-page-body p a:hover, .announcement-page-body .ton .common-header p a:hover,
+.text-link-arrow a:hover, .ton .common-header .text a:hover, .ton .common-header .policy ul li a:hover, .policy ul .ton .common-header li a:hover, .ton .common-header .ton-table-header a:hover, .ton .common-header .post-title a:hover, .ton .common-header .post-description a:hover, .ton .common-header .announcement-page-subtitle a:hover, .ton .common-header .announcement-page-body p a:hover, .announcement-page-body .ton .common-header p a:hover,
 .ton .common-header .announcement-page-body li a:hover,
 .announcement-page-body .ton .common-header li a:hover, .ton .common-header .ton-belief-item h4 a:hover, .ton-belief-item .ton .common-header h4 a:hover, .ton .common-header .ton-decetralized-table-body li a:hover, .ton-decetralized-table-body .ton .common-header li a:hover {
   text-decoration: underline;
 }
-.text-link-arrow a::after, .ton .common-header .text a::after, .ton .common-header .ton-table-header a::after, .ton .common-header .post-title a::after, .ton .common-header .post-description a::after, .ton .common-header .announcement-page-subtitle a::after, .ton .common-header .announcement-page-body p a::after, .announcement-page-body .ton .common-header p a::after,
+.text-link-arrow a::after, .ton .common-header .text a::after, .ton .common-header .policy ul li a::after, .policy ul .ton .common-header li a::after, .ton .common-header .ton-table-header a::after, .ton .common-header .post-title a::after, .ton .common-header .post-description a::after, .ton .common-header .announcement-page-subtitle a::after, .ton .common-header .announcement-page-body p a::after, .announcement-page-body .ton .common-header p a::after,
 .ton .common-header .announcement-page-body li a::after,
 .announcement-page-body .ton .common-header li a::after, .ton .common-header .ton-belief-item h4 a::after, .ton-belief-item .ton .common-header h4 a::after, .ton .common-header .ton-decetralized-table-body li a::after, .ton-decetralized-table-body .ton .common-header li a::after {
   position: absolute;
@@ -262,13 +262,13 @@ body {
   color: white;
 }
 
-.medium-text, .ton-why-bottom-text .text, .ton-why-bottom-text .ton-table-header, .ton-why-bottom-text .post-title, .ton-why-bottom-text .post-description, .ton-why-bottom-text .announcement-page-subtitle, .ton-why-bottom-text .announcement-page-body p, .announcement-page-body .ton-why-bottom-text p,
+.medium-text, .ton-why-bottom-text .text, .ton-why-bottom-text .policy ul li, .policy ul .ton-why-bottom-text li, .ton-why-bottom-text .ton-table-header, .ton-why-bottom-text .post-title, .ton-why-bottom-text .post-description, .ton-why-bottom-text .announcement-page-subtitle, .ton-why-bottom-text .announcement-page-body p, .announcement-page-body .ton-why-bottom-text p,
 .ton-why-bottom-text .announcement-page-body li,
-.announcement-page-body .ton-why-bottom-text li, .ton-why-bottom-text .ton-belief-item h4, .ton-belief-item .ton-why-bottom-text h4, .ton-why-bottom-text .ton-decetralized-table-body li, .ton-decetralized-table-body .ton-why-bottom-text li, .ton-mission-bottom-text, .ton .banner .text, .ton .banner .ton-table-header, .ton .banner .post-title, .ton .banner .post-description, .ton .banner .announcement-page-subtitle, .ton .banner .announcement-page-body p, .announcement-page-body .ton .banner p,
+.announcement-page-body .ton-why-bottom-text li, .ton-why-bottom-text .ton-belief-item h4, .ton-belief-item .ton-why-bottom-text h4, .ton-why-bottom-text .ton-decetralized-table-body li, .ton-decetralized-table-body .ton-why-bottom-text li, .ton-mission-bottom-text, .ton .banner .text, .ton .banner .policy ul li, .policy ul .ton .banner li, .ton .banner .ton-table-header, .ton .banner .post-title, .ton .banner .post-description, .ton .banner .announcement-page-subtitle, .ton .banner .announcement-page-body p, .announcement-page-body .ton .banner p,
 .ton .banner .announcement-page-body li,
-.announcement-page-body .ton .banner li, .ton .banner .ton-belief-item h4, .ton-belief-item .ton .banner h4, .ton .banner .ton-decetralized-table-body li, .ton-decetralized-table-body .ton .banner li, .ton-projects .ton-project-content-title, .about-partner-right h3, .common-list-container-list-item-top h4, .accelerator-layer3-bottom-body .text, .accelerator-layer3-bottom-body .ton-table-header, .accelerator-layer3-bottom-body .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .ton-belief-item h4, .ton-belief-item .accelerator-layer3-bottom-body h4, .accelerator-layer3-bottom-body .announcement-page-body p, .announcement-page-body .accelerator-layer3-bottom-body p,
+.announcement-page-body .ton .banner li, .ton .banner .ton-belief-item h4, .ton-belief-item .ton .banner h4, .ton .banner .ton-decetralized-table-body li, .ton-decetralized-table-body .ton .banner li, .ton-projects .ton-project-content-title, .about-partner-right h3, .common-list-container-list-item-top h4, .accelerator-layer3-bottom-body .text, .accelerator-layer3-bottom-body .policy ul li, .policy ul .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .ton-table-header, .accelerator-layer3-bottom-body .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .ton-belief-item h4, .ton-belief-item .accelerator-layer3-bottom-body h4, .accelerator-layer3-bottom-body .announcement-page-body p, .announcement-page-body .accelerator-layer3-bottom-body p,
 .accelerator-layer3-bottom-body .announcement-page-body li,
-.announcement-page-body .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .announcement-page-subtitle, .accelerator-layer3-bottom-body .post-description, .accelerator-layer3-bottom-body .post-title, .accelerator-layer3-top-body .text, .accelerator-layer3-top-body .ton-table-header, .accelerator-layer3-top-body .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-layer3-top-body li, .accelerator-layer3-top-body .ton-belief-item h4, .ton-belief-item .accelerator-layer3-top-body h4, .accelerator-layer3-top-body .announcement-page-body p, .announcement-page-body .accelerator-layer3-top-body p,
+.announcement-page-body .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .announcement-page-subtitle, .accelerator-layer3-bottom-body .post-description, .accelerator-layer3-bottom-body .post-title, .accelerator-layer3-top-body .text, .accelerator-layer3-top-body .policy ul li, .policy ul .accelerator-layer3-top-body li, .accelerator-layer3-top-body .ton-table-header, .accelerator-layer3-top-body .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-layer3-top-body li, .accelerator-layer3-top-body .ton-belief-item h4, .ton-belief-item .accelerator-layer3-top-body h4, .accelerator-layer3-top-body .announcement-page-body p, .announcement-page-body .accelerator-layer3-top-body p,
 .accelerator-layer3-top-body .announcement-page-body li,
 .announcement-page-body .accelerator-layer3-top-body li, .accelerator-layer3-top-body .announcement-page-subtitle, .accelerator-layer3-top-body .post-description, .accelerator-layer3-top-body .post-title, .analytics-globe-section-text p {
   font-size: 20px;
@@ -276,13 +276,13 @@ body {
   line-height: 35px;
   font-family: "Orbitron", sans-serif;
 }
-.medium-text *, .ton-why-bottom-text .text *, .ton-why-bottom-text .ton-table-header *, .ton-why-bottom-text .post-title *, .ton-why-bottom-text .post-description *, .ton-why-bottom-text .announcement-page-subtitle *, .ton-why-bottom-text .announcement-page-body p *, .announcement-page-body .ton-why-bottom-text p *,
+.medium-text *, .ton-why-bottom-text .text *, .ton-why-bottom-text .policy ul li *, .policy ul .ton-why-bottom-text li *, .ton-why-bottom-text .ton-table-header *, .ton-why-bottom-text .post-title *, .ton-why-bottom-text .post-description *, .ton-why-bottom-text .announcement-page-subtitle *, .ton-why-bottom-text .announcement-page-body p *, .announcement-page-body .ton-why-bottom-text p *,
 .ton-why-bottom-text .announcement-page-body li *,
-.announcement-page-body .ton-why-bottom-text li *, .ton-why-bottom-text .ton-belief-item h4 *, .ton-belief-item .ton-why-bottom-text h4 *, .ton-why-bottom-text .ton-decetralized-table-body li *, .ton-decetralized-table-body .ton-why-bottom-text li *, .ton-mission-bottom-text *, .ton .banner .text *, .ton .banner .ton-table-header *, .ton .banner .post-title *, .ton .banner .post-description *, .ton .banner .announcement-page-subtitle *, .ton .banner .announcement-page-body p *, .announcement-page-body .ton .banner p *,
+.announcement-page-body .ton-why-bottom-text li *, .ton-why-bottom-text .ton-belief-item h4 *, .ton-belief-item .ton-why-bottom-text h4 *, .ton-why-bottom-text .ton-decetralized-table-body li *, .ton-decetralized-table-body .ton-why-bottom-text li *, .ton-mission-bottom-text *, .ton .banner .text *, .ton .banner .policy ul li *, .policy ul .ton .banner li *, .ton .banner .ton-table-header *, .ton .banner .post-title *, .ton .banner .post-description *, .ton .banner .announcement-page-subtitle *, .ton .banner .announcement-page-body p *, .announcement-page-body .ton .banner p *,
 .ton .banner .announcement-page-body li *,
-.announcement-page-body .ton .banner li *, .ton .banner .ton-belief-item h4 *, .ton-belief-item .ton .banner h4 *, .ton .banner .ton-decetralized-table-body li *, .ton-decetralized-table-body .ton .banner li *, .ton-projects .ton-project-content-title *, .about-partner-right h3 *, .common-list-container-list-item-top h4 *, .accelerator-layer3-bottom-body .text *, .accelerator-layer3-bottom-body .ton-table-header *, .accelerator-layer3-bottom-body .ton-decetralized-table-body li *, .ton-decetralized-table-body .accelerator-layer3-bottom-body li *, .accelerator-layer3-bottom-body .ton-belief-item h4 *, .ton-belief-item .accelerator-layer3-bottom-body h4 *, .accelerator-layer3-bottom-body .announcement-page-body p *, .announcement-page-body .accelerator-layer3-bottom-body p *,
+.announcement-page-body .ton .banner li *, .ton .banner .ton-belief-item h4 *, .ton-belief-item .ton .banner h4 *, .ton .banner .ton-decetralized-table-body li *, .ton-decetralized-table-body .ton .banner li *, .ton-projects .ton-project-content-title *, .about-partner-right h3 *, .common-list-container-list-item-top h4 *, .accelerator-layer3-bottom-body .text *, .accelerator-layer3-bottom-body .policy ul li *, .policy ul .accelerator-layer3-bottom-body li *, .accelerator-layer3-bottom-body .ton-table-header *, .accelerator-layer3-bottom-body .ton-decetralized-table-body li *, .ton-decetralized-table-body .accelerator-layer3-bottom-body li *, .accelerator-layer3-bottom-body .ton-belief-item h4 *, .ton-belief-item .accelerator-layer3-bottom-body h4 *, .accelerator-layer3-bottom-body .announcement-page-body p *, .announcement-page-body .accelerator-layer3-bottom-body p *,
 .accelerator-layer3-bottom-body .announcement-page-body li *,
-.announcement-page-body .accelerator-layer3-bottom-body li *, .accelerator-layer3-bottom-body .announcement-page-subtitle *, .accelerator-layer3-bottom-body .post-description *, .accelerator-layer3-bottom-body .post-title *, .accelerator-layer3-top-body .text *, .accelerator-layer3-top-body .ton-table-header *, .accelerator-layer3-top-body .ton-decetralized-table-body li *, .ton-decetralized-table-body .accelerator-layer3-top-body li *, .accelerator-layer3-top-body .ton-belief-item h4 *, .ton-belief-item .accelerator-layer3-top-body h4 *, .accelerator-layer3-top-body .announcement-page-body p *, .announcement-page-body .accelerator-layer3-top-body p *,
+.announcement-page-body .accelerator-layer3-bottom-body li *, .accelerator-layer3-bottom-body .announcement-page-subtitle *, .accelerator-layer3-bottom-body .post-description *, .accelerator-layer3-bottom-body .post-title *, .accelerator-layer3-top-body .text *, .accelerator-layer3-top-body .policy ul li *, .policy ul .accelerator-layer3-top-body li *, .accelerator-layer3-top-body .ton-table-header *, .accelerator-layer3-top-body .ton-decetralized-table-body li *, .ton-decetralized-table-body .accelerator-layer3-top-body li *, .accelerator-layer3-top-body .ton-belief-item h4 *, .ton-belief-item .accelerator-layer3-top-body h4 *, .accelerator-layer3-top-body .announcement-page-body p *, .announcement-page-body .accelerator-layer3-top-body p *,
 .accelerator-layer3-top-body .announcement-page-body li *,
 .announcement-page-body .accelerator-layer3-top-body li *, .accelerator-layer3-top-body .announcement-page-subtitle *, .accelerator-layer3-top-body .post-description *, .accelerator-layer3-top-body .post-title *, .analytics-globe-section-text p * {
   font-weight: 500 !important;
@@ -306,7 +306,7 @@ body {
   margin-bottom: 15px;
 }
 
-.text, .ton-table-header, .ton-decetralized-table-body li, .ton-belief-item h4, .announcement-page-body p,
+.text, .policy ul li, .ton-table-header, .ton-decetralized-table-body li, .ton-belief-item h4, .announcement-page-body p,
 .announcement-page-body li, .announcement-page-subtitle, .post-description, .post-title {
   font-weight: 300;
   font-size: 17px;
@@ -314,16 +314,16 @@ body {
   font-family: "Ubuntu", sans-serif;
   margin-bottom: 25px;
 }
-.text a, .ton-table-header a, .ton-decetralized-table-body li a, .ton-belief-item h4 a, .announcement-page-body p a,
+.text a, .policy ul li a, .ton-table-header a, .ton-decetralized-table-body li a, .ton-belief-item h4 a, .announcement-page-body p a,
 .announcement-page-body li a, .announcement-page-subtitle a, .post-description a, .post-title a {
   text-decoration: none;
   color: #6ecce8;
 }
-.text strong, .ton-table-header strong, .ton-decetralized-table-body li strong, .ton-belief-item h4 strong, .announcement-page-body p strong,
+.text strong, .policy ul li strong, .ton-table-header strong, .ton-decetralized-table-body li strong, .ton-belief-item h4 strong, .announcement-page-body p strong,
 .announcement-page-body li strong, .announcement-page-subtitle strong, .post-description strong, .post-title strong {
   font-weight: 700;
 }
-.text:last-child, .ton-table-header:last-child, .ton-decetralized-table-body li:last-child, .ton-belief-item h4:last-child, .announcement-page-body p:last-child,
+.text:last-child, .policy ul li:last-child, .ton-table-header:last-child, .ton-decetralized-table-body li:last-child, .ton-belief-item h4:last-child, .announcement-page-body p:last-child,
 .announcement-page-body li:last-child, .announcement-page-subtitle:last-child, .post-description:last-child, .post-title:last-child {
   margin-bottom: 0px;
 }
@@ -372,13 +372,13 @@ body {
   .grid-width, .main-grid, .ton-sections, .secondary-grid, .navbar-grid {
     width: calc(100% - 40px);
   }
-  .medium-text, .ton-why-bottom-text .text, .ton-why-bottom-text .ton-table-header, .ton-why-bottom-text .post-title, .ton-why-bottom-text .post-description, .ton-why-bottom-text .announcement-page-subtitle, .ton-why-bottom-text .announcement-page-body p, .announcement-page-body .ton-why-bottom-text p,
+  .medium-text, .ton-why-bottom-text .text, .ton-why-bottom-text .policy ul li, .policy ul .ton-why-bottom-text li, .ton-why-bottom-text .ton-table-header, .ton-why-bottom-text .post-title, .ton-why-bottom-text .post-description, .ton-why-bottom-text .announcement-page-subtitle, .ton-why-bottom-text .announcement-page-body p, .announcement-page-body .ton-why-bottom-text p,
 .ton-why-bottom-text .announcement-page-body li,
-.announcement-page-body .ton-why-bottom-text li, .ton-why-bottom-text .ton-belief-item h4, .ton-belief-item .ton-why-bottom-text h4, .ton-why-bottom-text .ton-decetralized-table-body li, .ton-decetralized-table-body .ton-why-bottom-text li, .ton-mission-bottom-text, .ton .banner .text, .ton .banner .ton-table-header, .ton .banner .post-title, .ton .banner .post-description, .ton .banner .announcement-page-subtitle, .ton .banner .announcement-page-body p, .announcement-page-body .ton .banner p,
+.announcement-page-body .ton-why-bottom-text li, .ton-why-bottom-text .ton-belief-item h4, .ton-belief-item .ton-why-bottom-text h4, .ton-why-bottom-text .ton-decetralized-table-body li, .ton-decetralized-table-body .ton-why-bottom-text li, .ton-mission-bottom-text, .ton .banner .text, .ton .banner .policy ul li, .policy ul .ton .banner li, .ton .banner .ton-table-header, .ton .banner .post-title, .ton .banner .post-description, .ton .banner .announcement-page-subtitle, .ton .banner .announcement-page-body p, .announcement-page-body .ton .banner p,
 .ton .banner .announcement-page-body li,
-.announcement-page-body .ton .banner li, .ton .banner .ton-belief-item h4, .ton-belief-item .ton .banner h4, .ton .banner .ton-decetralized-table-body li, .ton-decetralized-table-body .ton .banner li, .ton-projects .ton-project-content-title, .about-partner-right h3, .common-list-container-list-item-top h4, .accelerator-layer3-bottom-body .text, .accelerator-layer3-bottom-body .ton-table-header, .accelerator-layer3-bottom-body .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .ton-belief-item h4, .ton-belief-item .accelerator-layer3-bottom-body h4, .accelerator-layer3-bottom-body .announcement-page-body p, .announcement-page-body .accelerator-layer3-bottom-body p,
+.announcement-page-body .ton .banner li, .ton .banner .ton-belief-item h4, .ton-belief-item .ton .banner h4, .ton .banner .ton-decetralized-table-body li, .ton-decetralized-table-body .ton .banner li, .ton-projects .ton-project-content-title, .about-partner-right h3, .common-list-container-list-item-top h4, .accelerator-layer3-bottom-body .text, .accelerator-layer3-bottom-body .policy ul li, .policy ul .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .ton-table-header, .accelerator-layer3-bottom-body .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .ton-belief-item h4, .ton-belief-item .accelerator-layer3-bottom-body h4, .accelerator-layer3-bottom-body .announcement-page-body p, .announcement-page-body .accelerator-layer3-bottom-body p,
 .accelerator-layer3-bottom-body .announcement-page-body li,
-.announcement-page-body .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .announcement-page-subtitle, .accelerator-layer3-bottom-body .post-description, .accelerator-layer3-bottom-body .post-title, .accelerator-layer3-top-body .text, .accelerator-layer3-top-body .ton-table-header, .accelerator-layer3-top-body .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-layer3-top-body li, .accelerator-layer3-top-body .ton-belief-item h4, .ton-belief-item .accelerator-layer3-top-body h4, .accelerator-layer3-top-body .announcement-page-body p, .announcement-page-body .accelerator-layer3-top-body p,
+.announcement-page-body .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .announcement-page-subtitle, .accelerator-layer3-bottom-body .post-description, .accelerator-layer3-bottom-body .post-title, .accelerator-layer3-top-body .text, .accelerator-layer3-top-body .policy ul li, .policy ul .accelerator-layer3-top-body li, .accelerator-layer3-top-body .ton-table-header, .accelerator-layer3-top-body .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-layer3-top-body li, .accelerator-layer3-top-body .ton-belief-item h4, .ton-belief-item .accelerator-layer3-top-body h4, .accelerator-layer3-top-body .announcement-page-body p, .announcement-page-body .accelerator-layer3-top-body p,
 .accelerator-layer3-top-body .announcement-page-body li,
 .announcement-page-body .accelerator-layer3-top-body li, .accelerator-layer3-top-body .announcement-page-subtitle, .accelerator-layer3-top-body .post-description, .accelerator-layer3-top-body .post-title, .analytics-globe-section-text p {
     font-size: 18px;
@@ -396,7 +396,7 @@ body {
     font-size: 42px;
     line-height: 53px;
   }
-  .text, .ton-table-header, .ton-decetralized-table-body li, .ton-belief-item h4, .announcement-page-body p,
+  .text, .policy ul li, .ton-table-header, .ton-decetralized-table-body li, .ton-belief-item h4, .announcement-page-body p,
 .announcement-page-body li, .announcement-page-subtitle, .post-description, .post-title {
     font-size: 16px;
   }
@@ -753,7 +753,7 @@ body {
   max-width: 538px;
   width: 26vw;
 }
-.home-text .text, .home-text .ton-table-header, .home-text .ton-decetralized-table-body li, .ton-decetralized-table-body .home-text li, .home-text .ton-belief-item h4, .ton-belief-item .home-text h4, .home-text .announcement-page-body p, .announcement-page-body .home-text p,
+.home-text .text, .home-text .policy ul li, .policy ul .home-text li, .home-text .ton-table-header, .home-text .ton-decetralized-table-body li, .ton-decetralized-table-body .home-text li, .home-text .ton-belief-item h4, .ton-belief-item .home-text h4, .home-text .announcement-page-body p, .announcement-page-body .home-text p,
 .home-text .announcement-page-body li,
 .announcement-page-body .home-text li, .home-text .announcement-page-subtitle, .home-text .post-description, .home-text .post-title {
   margin-bottom: 20px;
@@ -1217,7 +1217,7 @@ body {
   right: -130px;
   top: -30px;
 }
-.accelerator-protocols-text .text, .accelerator-protocols-text .ton-table-header, .accelerator-protocols-text .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-protocols-text li, .accelerator-protocols-text .ton-belief-item h4, .ton-belief-item .accelerator-protocols-text h4, .accelerator-protocols-text .announcement-page-body p, .announcement-page-body .accelerator-protocols-text p,
+.accelerator-protocols-text .text, .accelerator-protocols-text .policy ul li, .policy ul .accelerator-protocols-text li, .accelerator-protocols-text .ton-table-header, .accelerator-protocols-text .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-protocols-text li, .accelerator-protocols-text .ton-belief-item h4, .ton-belief-item .accelerator-protocols-text h4, .accelerator-protocols-text .announcement-page-body p, .announcement-page-body .accelerator-protocols-text p,
 .accelerator-protocols-text .announcement-page-body li,
 .announcement-page-body .accelerator-protocols-text li, .accelerator-protocols-text .announcement-page-subtitle, .accelerator-protocols-text .post-description, .accelerator-protocols-text .post-title {
   text-align: center;
@@ -1229,7 +1229,7 @@ body {
   line-height: 35px;
   font-family: "Orbitron", sans-serif;
 }
-.accelerator-protocols-text .text strong, .accelerator-protocols-text .ton-table-header strong, .accelerator-protocols-text .ton-decetralized-table-body li strong, .ton-decetralized-table-body .accelerator-protocols-text li strong, .accelerator-protocols-text .ton-belief-item h4 strong, .ton-belief-item .accelerator-protocols-text h4 strong, .accelerator-protocols-text .announcement-page-body p strong, .announcement-page-body .accelerator-protocols-text p strong,
+.accelerator-protocols-text .text strong, .accelerator-protocols-text .policy ul li strong, .policy ul .accelerator-protocols-text li strong, .accelerator-protocols-text .ton-table-header strong, .accelerator-protocols-text .ton-decetralized-table-body li strong, .ton-decetralized-table-body .accelerator-protocols-text li strong, .accelerator-protocols-text .ton-belief-item h4 strong, .ton-belief-item .accelerator-protocols-text h4 strong, .accelerator-protocols-text .announcement-page-body p strong, .announcement-page-body .accelerator-protocols-text p strong,
 .accelerator-protocols-text .announcement-page-body li strong,
 .announcement-page-body .accelerator-protocols-text li strong, .accelerator-protocols-text .announcement-page-subtitle strong, .accelerator-protocols-text .post-description strong, .accelerator-protocols-text .post-title strong {
   color: #f4eb10;
@@ -1286,7 +1286,7 @@ body {
   border-top: 1px solid #c4c4c4;
   padding: 25px 15px 35px 15px;
 }
-.accelerator-protocols .accelerator-protocol-bottom .text, .accelerator-protocols .accelerator-protocol-bottom .ton-table-header, .accelerator-protocols .accelerator-protocol-bottom .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-protocols .accelerator-protocol-bottom li, .accelerator-protocols .accelerator-protocol-bottom .ton-belief-item h4, .ton-belief-item .accelerator-protocols .accelerator-protocol-bottom h4, .accelerator-protocols .accelerator-protocol-bottom .announcement-page-body p, .announcement-page-body .accelerator-protocols .accelerator-protocol-bottom p,
+.accelerator-protocols .accelerator-protocol-bottom .text, .accelerator-protocols .accelerator-protocol-bottom .policy ul li, .policy ul .accelerator-protocols .accelerator-protocol-bottom li, .accelerator-protocols .accelerator-protocol-bottom .ton-table-header, .accelerator-protocols .accelerator-protocol-bottom .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-protocols .accelerator-protocol-bottom li, .accelerator-protocols .accelerator-protocol-bottom .ton-belief-item h4, .ton-belief-item .accelerator-protocols .accelerator-protocol-bottom h4, .accelerator-protocols .accelerator-protocol-bottom .announcement-page-body p, .announcement-page-body .accelerator-protocols .accelerator-protocol-bottom p,
 .accelerator-protocols .accelerator-protocol-bottom .announcement-page-body li,
 .announcement-page-body .accelerator-protocols .accelerator-protocol-bottom li, .accelerator-protocols .accelerator-protocol-bottom .announcement-page-subtitle, .accelerator-protocols .accelerator-protocol-bottom .post-description, .accelerator-protocols .accelerator-protocol-bottom .post-title {
   text-align: center;
@@ -1416,7 +1416,7 @@ body {
   font-weight: 700;
   font-size: 66px;
 }
-.accelerator-hiw-steps-list .step .text, .accelerator-hiw-steps-list .step .ton-table-header, .accelerator-hiw-steps-list .step .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-hiw-steps-list .step li, .accelerator-hiw-steps-list .step .ton-belief-item h4, .ton-belief-item .accelerator-hiw-steps-list .step h4, .accelerator-hiw-steps-list .step .announcement-page-body p, .announcement-page-body .accelerator-hiw-steps-list .step p,
+.accelerator-hiw-steps-list .step .text, .accelerator-hiw-steps-list .step .policy ul li, .policy ul .accelerator-hiw-steps-list .step li, .accelerator-hiw-steps-list .step .ton-table-header, .accelerator-hiw-steps-list .step .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-hiw-steps-list .step li, .accelerator-hiw-steps-list .step .ton-belief-item h4, .ton-belief-item .accelerator-hiw-steps-list .step h4, .accelerator-hiw-steps-list .step .announcement-page-body p, .announcement-page-body .accelerator-hiw-steps-list .step p,
 .accelerator-hiw-steps-list .step .announcement-page-body li,
 .announcement-page-body .accelerator-hiw-steps-list .step li, .accelerator-hiw-steps-list .step .announcement-page-subtitle, .accelerator-hiw-steps-list .step .post-description, .accelerator-hiw-steps-list .step .post-title {
   margin-top: 5px;
@@ -1557,13 +1557,13 @@ body {
   font-size: 30px;
   line-height: 62px;
 }
-.accelerator-hiw-mentors-body .text, .accelerator-hiw-mentors-body .ton-table-header, .accelerator-hiw-mentors-body .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-hiw-mentors-body li, .accelerator-hiw-mentors-body .ton-belief-item h4, .ton-belief-item .accelerator-hiw-mentors-body h4, .accelerator-hiw-mentors-body .announcement-page-body p, .announcement-page-body .accelerator-hiw-mentors-body p,
+.accelerator-hiw-mentors-body .text, .accelerator-hiw-mentors-body .policy ul li, .policy ul .accelerator-hiw-mentors-body li, .accelerator-hiw-mentors-body .ton-table-header, .accelerator-hiw-mentors-body .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-hiw-mentors-body li, .accelerator-hiw-mentors-body .ton-belief-item h4, .ton-belief-item .accelerator-hiw-mentors-body h4, .accelerator-hiw-mentors-body .announcement-page-body p, .announcement-page-body .accelerator-hiw-mentors-body p,
 .accelerator-hiw-mentors-body .announcement-page-body li,
 .announcement-page-body .accelerator-hiw-mentors-body li, .accelerator-hiw-mentors-body .announcement-page-subtitle, .accelerator-hiw-mentors-body .post-description, .accelerator-hiw-mentors-body .post-title {
   color: #6ecce8;
   font-weight: 300;
 }
-.accelerator-hiw-mentors-body .text strong, .accelerator-hiw-mentors-body .ton-table-header strong, .accelerator-hiw-mentors-body .ton-decetralized-table-body li strong, .ton-decetralized-table-body .accelerator-hiw-mentors-body li strong, .accelerator-hiw-mentors-body .ton-belief-item h4 strong, .ton-belief-item .accelerator-hiw-mentors-body h4 strong, .accelerator-hiw-mentors-body .announcement-page-body p strong, .announcement-page-body .accelerator-hiw-mentors-body p strong,
+.accelerator-hiw-mentors-body .text strong, .accelerator-hiw-mentors-body .policy ul li strong, .policy ul .accelerator-hiw-mentors-body li strong, .accelerator-hiw-mentors-body .ton-table-header strong, .accelerator-hiw-mentors-body .ton-decetralized-table-body li strong, .ton-decetralized-table-body .accelerator-hiw-mentors-body li strong, .accelerator-hiw-mentors-body .ton-belief-item h4 strong, .ton-belief-item .accelerator-hiw-mentors-body h4 strong, .accelerator-hiw-mentors-body .announcement-page-body p strong, .announcement-page-body .accelerator-hiw-mentors-body p strong,
 .accelerator-hiw-mentors-body .announcement-page-body li strong,
 .announcement-page-body .accelerator-hiw-mentors-body li strong, .accelerator-hiw-mentors-body .announcement-page-subtitle strong, .accelerator-hiw-mentors-body .post-description strong, .accelerator-hiw-mentors-body .post-title strong {
   color: #f4eb10;
@@ -1606,7 +1606,7 @@ body {
   .accelerator-hiw-steps-list .step .grid-img {
     display: none;
   }
-  .accelerator-hiw-steps-list .step .text, .accelerator-hiw-steps-list .step .ton-table-header, .accelerator-hiw-steps-list .step .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-hiw-steps-list .step li, .accelerator-hiw-steps-list .step .ton-belief-item h4, .ton-belief-item .accelerator-hiw-steps-list .step h4, .accelerator-hiw-steps-list .step .announcement-page-body p, .announcement-page-body .accelerator-hiw-steps-list .step p,
+  .accelerator-hiw-steps-list .step .text, .accelerator-hiw-steps-list .step .policy ul li, .policy ul .accelerator-hiw-steps-list .step li, .accelerator-hiw-steps-list .step .ton-table-header, .accelerator-hiw-steps-list .step .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-hiw-steps-list .step li, .accelerator-hiw-steps-list .step .ton-belief-item h4, .ton-belief-item .accelerator-hiw-steps-list .step h4, .accelerator-hiw-steps-list .step .announcement-page-body p, .announcement-page-body .accelerator-hiw-steps-list .step p,
 .accelerator-hiw-steps-list .step .announcement-page-body li,
 .announcement-page-body .accelerator-hiw-steps-list .step li, .accelerator-hiw-steps-list .step .announcement-page-subtitle, .accelerator-hiw-steps-list .step .post-description, .accelerator-hiw-steps-list .step .post-title {
     font-size: 17px;
@@ -1683,12 +1683,12 @@ body {
   align-items: center;
   justify-content: center;
 }
-.accelerator-layer3-top-body .text, .accelerator-layer3-top-body .ton-table-header, .accelerator-layer3-top-body .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-layer3-top-body li, .accelerator-layer3-top-body .ton-belief-item h4, .ton-belief-item .accelerator-layer3-top-body h4, .accelerator-layer3-top-body .announcement-page-body p, .announcement-page-body .accelerator-layer3-top-body p,
+.accelerator-layer3-top-body .text, .accelerator-layer3-top-body .policy ul li, .policy ul .accelerator-layer3-top-body li, .accelerator-layer3-top-body .ton-table-header, .accelerator-layer3-top-body .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-layer3-top-body li, .accelerator-layer3-top-body .ton-belief-item h4, .ton-belief-item .accelerator-layer3-top-body h4, .accelerator-layer3-top-body .announcement-page-body p, .announcement-page-body .accelerator-layer3-top-body p,
 .accelerator-layer3-top-body .announcement-page-body li,
 .announcement-page-body .accelerator-layer3-top-body li, .accelerator-layer3-top-body .announcement-page-subtitle, .accelerator-layer3-top-body .post-description, .accelerator-layer3-top-body .post-title {
   font-family: "Orbitron", sans-serif;
 }
-.accelerator-layer3-top-body .text strong, .accelerator-layer3-top-body .ton-table-header strong, .accelerator-layer3-top-body .ton-decetralized-table-body li strong, .ton-decetralized-table-body .accelerator-layer3-top-body li strong, .accelerator-layer3-top-body .ton-belief-item h4 strong, .ton-belief-item .accelerator-layer3-top-body h4 strong, .accelerator-layer3-top-body .announcement-page-body p strong, .announcement-page-body .accelerator-layer3-top-body p strong,
+.accelerator-layer3-top-body .text strong, .accelerator-layer3-top-body .policy ul li strong, .policy ul .accelerator-layer3-top-body li strong, .accelerator-layer3-top-body .ton-table-header strong, .accelerator-layer3-top-body .ton-decetralized-table-body li strong, .ton-decetralized-table-body .accelerator-layer3-top-body li strong, .accelerator-layer3-top-body .ton-belief-item h4 strong, .ton-belief-item .accelerator-layer3-top-body h4 strong, .accelerator-layer3-top-body .announcement-page-body p strong, .announcement-page-body .accelerator-layer3-top-body p strong,
 .accelerator-layer3-top-body .announcement-page-body li strong,
 .announcement-page-body .accelerator-layer3-top-body li strong, .accelerator-layer3-top-body .announcement-page-subtitle strong, .accelerator-layer3-top-body .post-description strong, .accelerator-layer3-top-body .post-title strong {
   color: #f4eb10;
@@ -1719,7 +1719,7 @@ body {
 .accelerator-layer3-bottom-title h3 {
   font-weight: 500;
 }
-.accelerator-layer3-bottom-body .text, .accelerator-layer3-bottom-body .ton-table-header, .accelerator-layer3-bottom-body .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .ton-belief-item h4, .ton-belief-item .accelerator-layer3-bottom-body h4, .accelerator-layer3-bottom-body .announcement-page-body p, .announcement-page-body .accelerator-layer3-bottom-body p,
+.accelerator-layer3-bottom-body .text, .accelerator-layer3-bottom-body .policy ul li, .policy ul .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .ton-table-header, .accelerator-layer3-bottom-body .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .ton-belief-item h4, .ton-belief-item .accelerator-layer3-bottom-body h4, .accelerator-layer3-bottom-body .announcement-page-body p, .announcement-page-body .accelerator-layer3-bottom-body p,
 .accelerator-layer3-bottom-body .announcement-page-body li,
 .announcement-page-body .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .announcement-page-subtitle, .accelerator-layer3-bottom-body .post-description, .accelerator-layer3-bottom-body .post-title {
   font-weight: 400;
@@ -1826,7 +1826,7 @@ body {
     margin-right: auto;
     border: 5px solid #c4c4c4;
   }
-  .accelerator-layer3-bottom-body .text, .accelerator-layer3-bottom-body .ton-table-header, .accelerator-layer3-bottom-body .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .ton-belief-item h4, .ton-belief-item .accelerator-layer3-bottom-body h4, .accelerator-layer3-bottom-body .announcement-page-body p, .announcement-page-body .accelerator-layer3-bottom-body p,
+  .accelerator-layer3-bottom-body .text, .accelerator-layer3-bottom-body .policy ul li, .policy ul .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .ton-table-header, .accelerator-layer3-bottom-body .ton-decetralized-table-body li, .ton-decetralized-table-body .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .ton-belief-item h4, .ton-belief-item .accelerator-layer3-bottom-body h4, .accelerator-layer3-bottom-body .announcement-page-body p, .announcement-page-body .accelerator-layer3-bottom-body p,
 .accelerator-layer3-bottom-body .announcement-page-body li,
 .announcement-page-body .accelerator-layer3-bottom-body li, .accelerator-layer3-bottom-body .announcement-page-subtitle, .accelerator-layer3-bottom-body .post-description, .accelerator-layer3-bottom-body .post-title {
     font-size: 16px;
@@ -1901,7 +1901,7 @@ body {
 .you-will-get-list-item .body {
   flex: 1;
 }
-.you-will-get-list-item .text, .you-will-get-list-item .ton-table-header, .you-will-get-list-item .ton-decetralized-table-body li, .ton-decetralized-table-body .you-will-get-list-item li, .you-will-get-list-item .ton-belief-item h4, .ton-belief-item .you-will-get-list-item h4, .you-will-get-list-item .announcement-page-body p, .announcement-page-body .you-will-get-list-item p,
+.you-will-get-list-item .text, .you-will-get-list-item .policy ul li, .policy ul .you-will-get-list-item li, .you-will-get-list-item .ton-table-header, .you-will-get-list-item .ton-decetralized-table-body li, .ton-decetralized-table-body .you-will-get-list-item li, .you-will-get-list-item .ton-belief-item h4, .ton-belief-item .you-will-get-list-item h4, .you-will-get-list-item .announcement-page-body p, .announcement-page-body .you-will-get-list-item p,
 .you-will-get-list-item .announcement-page-body li,
 .announcement-page-body .you-will-get-list-item li, .you-will-get-list-item .announcement-page-subtitle, .you-will-get-list-item .post-description, .you-will-get-list-item .post-title {
   font-weight: 300;
@@ -2556,7 +2556,7 @@ body {
 .common-list-container-list-item-body li:last-of-type {
   margin-bottom: 0px;
 }
-.common-list-container-list-item-body .text, .common-list-container-list-item-body .ton-table-header, .common-list-container-list-item-body .ton-decetralized-table-body li, .ton-decetralized-table-body .common-list-container-list-item-body li, .common-list-container-list-item-body .ton-belief-item h4, .ton-belief-item .common-list-container-list-item-body h4, .common-list-container-list-item-body .announcement-page-body p, .announcement-page-body .common-list-container-list-item-body p,
+.common-list-container-list-item-body .text, .common-list-container-list-item-body .policy ul li, .policy ul .common-list-container-list-item-body li, .common-list-container-list-item-body .ton-table-header, .common-list-container-list-item-body .ton-decetralized-table-body li, .ton-decetralized-table-body .common-list-container-list-item-body li, .common-list-container-list-item-body .ton-belief-item h4, .ton-belief-item .common-list-container-list-item-body h4, .common-list-container-list-item-body .announcement-page-body p, .announcement-page-body .common-list-container-list-item-body p,
 .common-list-container-list-item-body .announcement-page-body li,
 .announcement-page-body .common-list-container-list-item-body li, .common-list-container-list-item-body .announcement-page-subtitle, .common-list-container-list-item-body .post-title, .common-list-container-list-item-body .post-description {
   font-size: 14px;
@@ -2564,12 +2564,12 @@ body {
   line-height: 20px;
   font-weight: 400;
 }
-.common-list-container-list-item-body .text:last-child, .common-list-container-list-item-body .ton-table-header:last-child, .common-list-container-list-item-body .ton-decetralized-table-body li:last-child, .ton-decetralized-table-body .common-list-container-list-item-body li:last-child, .common-list-container-list-item-body .ton-belief-item h4:last-child, .ton-belief-item .common-list-container-list-item-body h4:last-child, .common-list-container-list-item-body .announcement-page-body p:last-child, .announcement-page-body .common-list-container-list-item-body p:last-child,
+.common-list-container-list-item-body .text:last-child, .common-list-container-list-item-body .policy ul li:last-child, .policy ul .common-list-container-list-item-body li:last-child, .common-list-container-list-item-body .ton-table-header:last-child, .common-list-container-list-item-body .ton-decetralized-table-body li:last-child, .ton-decetralized-table-body .common-list-container-list-item-body li:last-child, .common-list-container-list-item-body .ton-belief-item h4:last-child, .ton-belief-item .common-list-container-list-item-body h4:last-child, .common-list-container-list-item-body .announcement-page-body p:last-child, .announcement-page-body .common-list-container-list-item-body p:last-child,
 .common-list-container-list-item-body .announcement-page-body li:last-child,
 .announcement-page-body .common-list-container-list-item-body li:last-child, .common-list-container-list-item-body .announcement-page-subtitle:last-child, .common-list-container-list-item-body .post-title:last-child, .common-list-container-list-item-body .post-description:last-child {
   margin-bottom: 0px;
 }
-.common-list-container-list-item-body .text strong, .common-list-container-list-item-body .ton-table-header strong, .common-list-container-list-item-body .ton-decetralized-table-body li strong, .ton-decetralized-table-body .common-list-container-list-item-body li strong, .common-list-container-list-item-body .ton-belief-item h4 strong, .ton-belief-item .common-list-container-list-item-body h4 strong, .common-list-container-list-item-body .announcement-page-body p strong, .announcement-page-body .common-list-container-list-item-body p strong,
+.common-list-container-list-item-body .text strong, .common-list-container-list-item-body .policy ul li strong, .policy ul .common-list-container-list-item-body li strong, .common-list-container-list-item-body .ton-table-header strong, .common-list-container-list-item-body .ton-decetralized-table-body li strong, .ton-decetralized-table-body .common-list-container-list-item-body li strong, .common-list-container-list-item-body .ton-belief-item h4 strong, .ton-belief-item .common-list-container-list-item-body h4 strong, .common-list-container-list-item-body .announcement-page-body p strong, .announcement-page-body .common-list-container-list-item-body p strong,
 .common-list-container-list-item-body .announcement-page-body li strong,
 .announcement-page-body .common-list-container-list-item-body li strong, .common-list-container-list-item-body .announcement-page-subtitle strong, .common-list-container-list-item-body .post-title strong, .common-list-container-list-item-body .post-description strong {
   font-size: 18px;
@@ -2688,7 +2688,7 @@ body {
   flex: 1;
   padding-right: 100px;
 }
-.belief-section-right .text:last-of-type, .belief-section-right .ton-table-header:last-of-type, .belief-section-right .ton-decetralized-table-body li:last-of-type, .ton-decetralized-table-body .belief-section-right li:last-of-type, .belief-section-right .ton-belief-item h4:last-of-type, .ton-belief-item .belief-section-right h4:last-of-type, .belief-section-right .announcement-page-body p:last-of-type, .announcement-page-body .belief-section-right p:last-of-type,
+.belief-section-right .text:last-of-type, .belief-section-right .policy ul li:last-of-type, .policy ul .belief-section-right li:last-of-type, .belief-section-right .ton-table-header:last-of-type, .belief-section-right .ton-decetralized-table-body li:last-of-type, .ton-decetralized-table-body .belief-section-right li:last-of-type, .belief-section-right .ton-belief-item h4:last-of-type, .ton-belief-item .belief-section-right h4:last-of-type, .belief-section-right .announcement-page-body p:last-of-type, .announcement-page-body .belief-section-right p:last-of-type,
 .belief-section-right .announcement-page-body li:last-of-type,
 .announcement-page-body .belief-section-right li:last-of-type, .belief-section-right .announcement-page-subtitle:last-of-type, .belief-section-right .post-title:last-of-type, .belief-section-right .post-description:last-of-type {
   margin-bottom: 0px;
@@ -3266,7 +3266,7 @@ body {
     font-size: 28px;
     line-height: 35px;
   }
-  .announcement-page-body .text, .announcement-page-body .ton-table-header, .announcement-page-body .ton-belief-item h4, .ton-belief-item .announcement-page-body h4, .announcement-page-body .post-title, .announcement-page-body .post-description, .announcement-page-body .announcement-page-subtitle, .announcement-page-body p,
+  .announcement-page-body .text, .announcement-page-body .policy ul li, .policy ul .announcement-page-body li, .announcement-page-body .ton-table-header, .announcement-page-body .ton-belief-item h4, .ton-belief-item .announcement-page-body h4, .announcement-page-body .post-title, .announcement-page-body .post-description, .announcement-page-body .announcement-page-subtitle, .announcement-page-body p,
 .announcement-page-body li {
     font-size: 16px;
   }
@@ -3868,13 +3868,13 @@ body {
   flex-direction: column;
   text-align: center;
 }
-.ton .banner .text, .ton .banner .ton-table-header, .ton .banner .post-title, .ton .banner .post-description, .ton .banner .announcement-page-subtitle, .ton .banner .announcement-page-body p, .announcement-page-body .ton .banner p,
+.ton .banner .text, .ton .banner .policy ul li, .policy ul .ton .banner li, .ton .banner .ton-table-header, .ton .banner .post-title, .ton .banner .post-description, .ton .banner .announcement-page-subtitle, .ton .banner .announcement-page-body p, .announcement-page-body .ton .banner p,
 .ton .banner .announcement-page-body li,
 .announcement-page-body .ton .banner li, .ton .banner .ton-belief-item h4, .ton-belief-item .ton .banner h4, .ton .banner .ton-decetralized-table-body li, .ton-decetralized-table-body .ton .banner li {
   line-height: 30px;
   font-family: "Orbitron", sans-serif;
 }
-.ton .banner .text a, .ton .banner .ton-table-header a, .ton .banner .post-title a, .ton .banner .post-description a, .ton .banner .announcement-page-subtitle a, .ton .banner .announcement-page-body p a, .announcement-page-body .ton .banner p a,
+.ton .banner .text a, .ton .banner .policy ul li a, .policy ul .ton .banner li a, .ton .banner .ton-table-header a, .ton .banner .post-title a, .ton .banner .post-description a, .ton .banner .announcement-page-subtitle a, .ton .banner .announcement-page-body p a, .announcement-page-body .ton .banner p a,
 .ton .banner .announcement-page-body li a,
 .announcement-page-body .ton .banner li a, .ton .banner .ton-belief-item h4 a, .ton-belief-item .ton .banner h4 a, .ton .banner .ton-decetralized-table-body li a, .ton-decetralized-table-body .ton .banner li a {
   color: #6ecce8;
@@ -3901,7 +3901,7 @@ body {
   padding: 20px;
   border: 1px solid #b4add9;
 }
-.ton-partners .ton-partner .text, .ton-partners .ton-partner .ton-table-header, .ton-partners .ton-partner .post-title, .ton-partners .ton-partner .post-description, .ton-partners .ton-partner .announcement-page-subtitle, .ton-partners .ton-partner .announcement-page-body p, .announcement-page-body .ton-partners .ton-partner p,
+.ton-partners .ton-partner .text, .ton-partners .ton-partner .policy ul li, .policy ul .ton-partners .ton-partner li, .ton-partners .ton-partner .ton-table-header, .ton-partners .ton-partner .post-title, .ton-partners .ton-partner .post-description, .ton-partners .ton-partner .announcement-page-subtitle, .ton-partners .ton-partner .announcement-page-body p, .announcement-page-body .ton-partners .ton-partner p,
 .ton-partners .ton-partner .announcement-page-body li,
 .announcement-page-body .ton-partners .ton-partner li, .ton-partners .ton-partner .ton-belief-item h4, .ton-belief-item .ton-partners .ton-partner h4, .ton-partners .ton-partner .ton-decetralized-table-body li, .ton-decetralized-table-body .ton-partners .ton-partner li {
   font-weight: 500;
@@ -3975,14 +3975,14 @@ body {
 .ton-why-list-item-body {
   max-width: 940px;
 }
-.ton-why-list-item-body .text, .ton-why-list-item-body .ton-table-header, .ton-why-list-item-body .post-title, .ton-why-list-item-body .post-description, .ton-why-list-item-body .announcement-page-subtitle, .ton-why-list-item-body .announcement-page-body p, .announcement-page-body .ton-why-list-item-body p,
+.ton-why-list-item-body .text, .ton-why-list-item-body .policy ul li, .policy ul .ton-why-list-item-body li, .ton-why-list-item-body .ton-table-header, .ton-why-list-item-body .post-title, .ton-why-list-item-body .post-description, .ton-why-list-item-body .announcement-page-subtitle, .ton-why-list-item-body .announcement-page-body p, .announcement-page-body .ton-why-list-item-body p,
 .ton-why-list-item-body .announcement-page-body li,
 .announcement-page-body .ton-why-list-item-body li, .ton-why-list-item-body .ton-belief-item h4, .ton-belief-item .ton-why-list-item-body h4, .ton-why-list-item-body .ton-decetralized-table-body li, .ton-decetralized-table-body .ton-why-list-item-body li {
   font-size: 14px;
   text-align: left;
   margin-bottom: 15px;
 }
-.ton-why-list-item-body .text:nth-child(2), .ton-why-list-item-body .ton-table-header:nth-child(2), .ton-why-list-item-body .post-title:nth-child(2), .ton-why-list-item-body .post-description:nth-child(2), .ton-why-list-item-body .announcement-page-subtitle:nth-child(2), .ton-why-list-item-body .announcement-page-body p:nth-child(2), .announcement-page-body .ton-why-list-item-body p:nth-child(2),
+.ton-why-list-item-body .text:nth-child(2), .ton-why-list-item-body .policy ul li:nth-child(2), .policy ul .ton-why-list-item-body li:nth-child(2), .ton-why-list-item-body .ton-table-header:nth-child(2), .ton-why-list-item-body .post-title:nth-child(2), .ton-why-list-item-body .post-description:nth-child(2), .ton-why-list-item-body .announcement-page-subtitle:nth-child(2), .ton-why-list-item-body .announcement-page-body p:nth-child(2), .announcement-page-body .ton-why-list-item-body p:nth-child(2),
 .ton-why-list-item-body .announcement-page-body li:nth-child(2),
 .announcement-page-body .ton-why-list-item-body li:nth-child(2), .ton-why-list-item-body .ton-belief-item h4:nth-child(2), .ton-belief-item .ton-why-list-item-body h4:nth-child(2), .ton-why-list-item-body .ton-decetralized-table-body li:nth-child(2), .ton-decetralized-table-body .ton-why-list-item-body li:nth-child(2) {
   font-size: 13px;
@@ -3998,7 +3998,7 @@ body {
 .ton-why-bottom-text {
   margin-top: 50px;
 }
-.ton-why-bottom-text .text, .ton-why-bottom-text .ton-table-header, .ton-why-bottom-text .post-title, .ton-why-bottom-text .post-description, .ton-why-bottom-text .announcement-page-subtitle, .ton-why-bottom-text .announcement-page-body p, .announcement-page-body .ton-why-bottom-text p,
+.ton-why-bottom-text .text, .ton-why-bottom-text .policy ul li, .policy ul .ton-why-bottom-text li, .ton-why-bottom-text .ton-table-header, .ton-why-bottom-text .post-title, .ton-why-bottom-text .post-description, .ton-why-bottom-text .announcement-page-subtitle, .ton-why-bottom-text .announcement-page-body p, .announcement-page-body .ton-why-bottom-text p,
 .ton-why-bottom-text .announcement-page-body li,
 .announcement-page-body .ton-why-bottom-text li, .ton-why-bottom-text .ton-belief-item h4, .ton-belief-item .ton-why-bottom-text h4, .ton-why-bottom-text .ton-decetralized-table-body li, .ton-decetralized-table-body .ton-why-bottom-text li {
   color: #6ecce8;
@@ -4298,6 +4298,19 @@ body {
   position: relative;
   top: 3px;
 }
+.footer-terms {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  display: none;
+}
+.footer-terms a {
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  color: #6ecce8;
+}
 
 @media only screen and (max-width: 1200px) {
   .footer-right .navigation-link {
@@ -4322,6 +4335,12 @@ body {
     flex-direction: column;
     gap: 20px;
   }
+  .footer-terms {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 30px;
+  }
 }
 #notification-page .navbar {
   background: #00063e;
@@ -4339,7 +4358,7 @@ body {
 .notifications a {
   text-decoration: none;
 }
-.notifications .grid, .notifications .apps, .notifications .alerts-grid, .notifications .integrations, .notifications .contribute-example, .notifications .contribute-title, .notifications .contribute-bottom, .notifications .projects, .notifications .hero, .notifications .footer-grid, .notifications .navbar-grid {
+.notifications .grid, .notifications .apps, .notifications .alerts-grid, .notifications .integrations, .notifications .contribute-example, .notifications .contribute-title, .notifications .contribute-bottom, .notifications .projects, .notifications .hero, .notifications .navbar-grid {
   max-width: 1440px;
   width: calc(100% - 120px);
   margin: 0 auto;
@@ -4359,7 +4378,7 @@ body {
 }
 
 @media only screen and (max-width: 1050px) {
-  .notifications .grid, .notifications .apps, .notifications .alerts-grid, .notifications .integrations, .notifications .contribute-example, .notifications .contribute-title, .notifications .contribute-bottom, .notifications .projects, .notifications .hero, .notifications .footer-grid, .notifications .navbar-grid {
+  .notifications .grid, .notifications .apps, .notifications .alerts-grid, .notifications .integrations, .notifications .contribute-example, .notifications .contribute-title, .notifications .contribute-bottom, .notifications .projects, .notifications .hero, .notifications .navbar-grid {
     width: calc(100% - 40px);
   }
 }
@@ -4543,84 +4562,6 @@ body {
   margin-right: 0px;
 }
 
-.notifications .footer {
-  background: #00063e;
-  padding-top: 80px;
-  padding-bottom: 66px;
-  margin-top: 155px;
-  overflow: hidden;
-}
-.notifications .footer * {
-  color: white;
-}
-.notifications .footer-top {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  text-decoration: none;
-}
-.notifications .footer-top a {
-  margin-left: 15px;
-  margin-right: 15px;
-  position: relative;
-}
-.notifications .footer-top a::after {
-  position: absolute;
-  content: "";
-  background: #15d8f9;
-  width: 100%;
-  height: 2px;
-  border-radius: 35px;
-  left: 0px;
-  bottom: -5px;
-}
-.notifications .footer-socials {
-  margin-top: 50px;
-}
-.notifications .footer-bottom p {
-  margin-top: 55px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 30px;
-  color: #e5ebfd;
-}
-.notifications .footer-bottom a {
-  color: #15d8f9;
-}
-
-@media only screen and (max-width: 1100px) {
-  .notifications .footer-flex {
-    flex-direction: column;
-  }
-}
-@media only screen and (max-width: 1000px) {
-  .notifications .footer-title {
-    font-size: 18px;
-    line-height: 40px;
-    max-width: 330px;
-  }
-  .notifications .footer-title a {
-    position: relative;
-    top: 5px;
-  }
-}
-@media only screen and (max-width: 550px) {
-  .notifications .footer {
-    padding-top: 50px;
-    margin-top: 80px;
-  }
-  .notifications .footer a {
-    margin-left: 0px;
-    margin-right: 10px;
-  }
-  .notifications .footer a:last-child {
-    margin-left: 10px;
-  }
-  .notifications .footer-top {
-    font-size: 22px;
-    line-height: 55px;
-  }
-}
 .notifications .hero {
   display: flex;
   justify-content: space-between;
@@ -5270,6 +5211,50 @@ body {
     font-size: 18px;
     line-height: 30px;
   }
+}
+#notification-page .footer {
+  margin-top: 0px;
+}
+#notification-page .footer-terms {
+  display: flex;
+}
+
+.policy {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 40px;
+}
+.policy .text, .policy ul li, .policy .post-title, .policy .post-description, .policy .announcement-page-subtitle, .policy .announcement-page-body p, .announcement-page-body .policy p,
+.policy .announcement-page-body li,
+.announcement-page-body .policy li, .policy .ton-belief-item h4, .ton-belief-item .policy h4, .policy .ton-decetralized-table-body li, .ton-decetralized-table-body .policy li, .policy .ton-table-header {
+  margin-bottom: 0px;
+}
+.policy .padding {
+  margin-bottom: 20px;
+}
+.policy h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.policy h3 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.policy * {
+  font-family: "Ubuntu", sans-serif;
+}
+.policy ol {
+  list-style-type: decimal;
+}
+.policy ol li:first-child {
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.policy ul {
+  font-family: "Ubuntu", sans-serif;
+  list-style-type: disc;
 }
 
 /*# sourceMappingURL=index.css.map */
