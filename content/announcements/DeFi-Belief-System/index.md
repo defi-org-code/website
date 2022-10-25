@@ -3,12 +3,11 @@ layout: pages/announcements/AnnouncementHandler
 backButton:
   - ../back-button.md
 
-date: Jul 21
-read_text: 3 min read
-link: defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol
-image: assets/images/announcements/defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol/main.jpeg
-title: "DeFi.org & DappRadar Launch $100k Developers Grant for The Open DeFi Notification Protocol!"
-posted_at: posted at Medium
+date: Oct 25
+read_text: 5 min read
+link: DeFi-Belief-System
+image: assets/images/announcements/DeFi-Belief-System/bg.jpg
+title: "DeFi Belief System"
 author: Defi.org
 socials:
   - /announcements/authors/defi/socials.md
@@ -16,86 +15,91 @@ related:
 description: ""
 ---
 
-📢📢 CALLING ALL DEVELOPERS!!
+Once in a while it's important to take a step back and think about the core principles behind what we are building: What is the true innovation behind crypto and blockchain? What are the key principles for building dapps the right way?
 
-[DeFi.org ](https://defi.org/)is excited to launch a new $100,000 developer grant program, in collaboration with [DappRadar](https://dappradar.com/), for The [Open DeFi Notification Protocol](https://defi.org/notifications/).
+In this blog post, we outline our manifesto for a practical decentralized ecosystem of dapps and lay down the path for achieving this ultimate goal.
 
-![](/assets/images/announcements/defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol/2.png)
+_DeFi.org is a community of DeFi thought leaders. Together we are building an ecosystem of fully decentralized financial applications on leading L1 blockchains like Ethereum and TON. We educate, invest, accelerate and build. Powered by the [Orbs Network](https://www.orbs.com/)._
 
-The Open DeFi Notification Protocol by [defi.org](https://defi.org/) is a free-for-use, community-inspired initiative to provide users with decentralized and free mobile notifications for all sorts of on-chain events. The Protocol is powered by the [Orbs network](https://www.orbs.com/) and will be executed by its decentralized network of independent nodes, known as the Orbs Guardians.
 
-### $100,000 Developer Grant Program!
+### a. Practical decentralization
 
-This grant will focus on teams contributing new projects to the Notification protocol!
+What is the true innovation behind crypto and blockchain? We believe the disruption is decentralization. The ability to build practical organizations that work towards a clear business goal, yet are not controlled by any centralized entity. Organizations that are both trustless and permissionless.
 
-The Open DeFi Notification Protocol is an open-source project allowing anyone to contribute and integrate notifications. With a quick and simple integration on Github, developers can provide free mobile notifications for any DeFi project for important events like accumulated pending rewards, price swings, near liquidations, stop loss, contract upgrades, new governance votes and more.
+While this idea is applicable to many industries, it is primarily applicable to finance. Business goals are generally embodied in the generation of financial value, making the industry of financial services a first necessary target of this disruption. This explains our focus on DeFi.
 
-Grant details:
+Practical decentralization dictates a level playing field. It does not mean that everybody is equal, but all players in the ecosystem must have equal access and compete on equal grounds.
 
-- Start date: 30/05/22
-- End date: 30/09/22
-- Duration: 4 months
-- Grants: Available total of up to $100,000, with up to $10k per dev team
 
-Winners and final grant amounts will be chosen by a committee of the defi.org mentors who will score entries based on the following parameters:
+### b. Radical transparency
 
-1.  Project contributions: team must contribute at least 1 project to be eligible for receiving the grant. However, more contributions will earn more points from the judges.
-2.  Active notifications: The more active notifications for your project contributions, the better!
-3.  Innovation: Teams are encouraged to make use of the existing projects and use-cases found in this [repo](https://github.com/open-defi-notification-protocol/projects). However, new and innovative use cases and integrations will earn extra points.
-4.  Social media presence: At least one tweet announcing your contribution tagging @orbs_network, @DappRadar, and @DefiOrg. However, additional social media activities such as educational blog posts, tutorial videos, etc., will get extra consideration from the judges.
+Practical decentralization dictates a level playing field - this requires that all players have equal and absolute access to all data and all source code of a dapp. If transparency is not absolute, the parties privy to insider knowledge would have an unfair advantage.
 
-Once ready, dev teams need to submit their entry in this [FORM](https://docs.google.com/forms/d/e/1FAIpQLScWXOXHC0MkUiDwclLVw82gWzx60TAu5cORGAqYM0sKLLGjxg/viewform?usp=pp_url).
+This principle is paramount in the blockchain infrastructure layer. All users must have access to the full source code of validator nodes. They must have full access to all blocks in the chain including all proofs that designate them as valid. Users should also be encouraged to run an audit node and see for themselves that execution of all transactions indeed yields the state presented to them.
 
-A DeFi.org mentors committee will select winners, in their sole discretion, based on the criteria above.
+All parts of a dapp must be open source. Its entire backend must be run as smart contracts on-chain, with published source code that has been verified to compile the bytecode that was deployed.  The frontend must be provided to users as a non-minified non-uglified version that they can easily run on their own.
 
-**So what are you waiting for?!**
 
-**Join us to earn up to $100,000 in developers grants!**
+### c. Community governance
 
-### Developer Resources
+Practical decentralization dictates a level playing field - this implies that any decision that changes the rules of the game and modifies the behavior of the protocol in any way, such as an upgrade of a dapp’s code, must undergo proper community governance.
 
-The best place to start is The Open DeFi Notification Protocol [Github](https://github.com/open-defi-notification-protocol), specifically this [README](https://github.com/open-defi-notification-protocol/projects/blob/master/README.md) file.
+Dapps are generally expected to have an incentive system revolving around a token. The governance power of a party should be proportional to the party’s holdings of this token. All parties should be allowed to participate in votes and no party can be censored.
 
-As mentioned above, anyone can contribute to the protocol. All this requires is implementing a simple JavaScript web3 class that extracts the notification from the chain data.
+Users should have complete and absolute access to all historic votes and resulting governance decisions. Users should also be encouraged to audit the voting process based on immutable chain data and see for themselves that the majority of stake has prevailed.
 
-This class is then contributed via PR to the protocol [Github repo](https://github.com/open-defi-notification-protocol/projects). The whole process takes about 30 minutes for someone familiar with the project's smart contracts. There's no need to run any backend, develop any UI or make any modification to the project's smart contracts.
 
-When a new user registers for this notification in the app (available on both [iOS](https://apps.apple.com/il/app/defi-notifications/id1588243632) and [Android](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp)), the protocol's many alert nodes will start executing the newly contributed JavaScript web3 class against every new mainnet block to extract fresh notifications. When any fresh notification is returned, the alert nodes will trigger a push notification and send it to the user.
+### d. Composable stack
 
-Here are additional information and links:
+To allow a DeFi ecosystem to reach its full potential, all participating protocols must see themselves as part of a protocol stack that is freely composable. Composition allows the output of one protocol to be directed into the input of another.
 
-- [Github](https://github.com/open-defi-notification-protocol)
-- [Website](https://defi.org/notifications/)
-- Overview [blog post](https://medium.com/@defiorg/introducing-open-defi-notification-protocol-95a8712a94e0)
-- Notification app: [iOS](https://apps.apple.com/il/app/defi-notifications/id1588243632), [Android](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp)
-- [Twitter](https://twitter.com/DefiOrg)
-- [Telegram](https://t.me/defiorg)
-- [DeFi.org](https://defi.org/) website
+To permit composition, every dapp should be consumable by other dapps. Since all dapps are implemented as smart contracts, these should be designed to be callable from other smart contracts and thus cannot depend on centralized infrastructure not available on-chain.
 
-### Integration Example: Aave
+Patterns of composition are not necessarily predictable. Protocols may be combined in ways that were not intended by their original creators to solve problems that were not originally anticipated.
 
-Here is the integration that allows Aave users to get notified when their position health factor drops below 1.1:
 
-![](/assets/images/announcements/defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol/3.png)
+### e. Sustainable tokenomics
 
-Once the PR is accepted, the project will immediately appear inside the mobile app with this new notification type enabled. You can control the project label, logo and colors by adding a small JSON file next to the class.
+Dapps are generally expected to have an incentive system revolving around a token. This incentives layer is what allows the actions of independent users of this decentralized system to converge around pre designed goals.
 
-![](/assets/images/announcements/defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol/3.png)
+The market forces of all participants that deal in this token constitute an economy. This economy must be carefully designed to remain balanced over time. Since a decentralized system does not allow intervention, sustainability must be a property of the system itself.
+
+An economy that is not sustainable will eventually spiral to its own death. Economies must be made resilient to adverse conditions and must be designed under the assumption that not all players have the system’s best interest at heart.
+
+
+### f. Responsible risk
+
+In the domain of smart contracts, code is law. If a contract’s implementation allows it to be abused in a manner unforeseen by its creator and its users, this abuse is considered valid. Code does not have intent, nor subjective interpretation of its purpose.
+
+Successful DeFi applications often contain significant amounts of user funds in their smart contracts. These funds are inherently at risk, since misunderstanding of the code may allow a third party to extract the funds against their rightful owners’ wishes.
+
+Creators and users must collaborate continuously to minimize this risk. Code should be changed slowly and after thorough community review. Security audits are encouraged, yet their existence does not guarantee protection.
+
+
+### g. Fair launch
+
+Dapps are generally expected to have an incentive system revolving around a token. Tokens are often distributed to parties during protocol launch to incentivize participation or investment and ensure the launch is successful.
+
+Practical decentralization ideally dictates a level playing field - this implies that no party can be granted special access or favorable terms. Accordingly, private sales or initial closed participation rounds are a breach of this principle and should be avoided.
+
+Team allocations are another sensitive area. While the team building a protocol should generally be compensated for its work, its inherent position as creators will disrupt the level playing field. Accordingly, team allocations should be minimal and external equivalent contributions encouraged.
+
+
+
+### The Path
+
+We believe that a practical decentralized ecosystem is possible. Decentralization takes effort and members of this ecosystem - dapp developers, wallet developers and end users - must all commit to this cause and hold each other responsible. The path is straightforward and achievable by following a simple set of rules:
+
+![path](/assets/images/announcements/DeFi-Belief-System/image1.png)
+
+
 
 # separator
 
-DeFi.org is super excited to launch its first ever developers grant together with DappRaddar, the leading and most popular websites for crypto devs.
 
-We are looking forward to seeing what projects developers can contribute to the Open DeFi Notification Protocol in order to make it the standard notifications protocol for DeFi apps.
+Enjoyed our content? We’d love to hear your feedback! Join our [Telegram](https://t.me/defiorg) group and follow us on [Twitter](https://twitter.com/DefiOrg).
 
-Don't hesitate to contact us at the defi.org [Telegram channel](https://t.me/defiorg) for more information!
 
-# separator
 
-**About DeFi.org**
 
-The DeFi.org Accelerator is dedicated to supporting research, development of open-source software, and community engagement. The accelerator looks for projects that are built on the principles of fair distribution, community ownership, innovation, responsible approach to risk, sustainable economics and composability with the broader ecosystem.
 
-Participants get a variety of benefits, including mentorship, funding opportunities, and market exposure.
-
-Interested teams can apply to participate at [https://DeFi.org/](https://defi.org/).
