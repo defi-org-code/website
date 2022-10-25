@@ -1,0 +1,13 @@
+layout: index
+script: announcement-page
+
+main:
+  - index.md
+footer:
+  - /_shared/footer/index.md
+
+navbar:
+  - /_shared/navbar/index.md
+
+image: assets/images/announcements/DeFi-Belief-System/bg.jpg
+title: "DeFi Belief System"
