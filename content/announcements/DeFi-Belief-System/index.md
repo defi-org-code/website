@@ -22,7 +22,7 @@ In this blog post, we outline our manifesto for a practical decentralized ecosys
 _DeFi.org is a community of DeFi thought leaders. Together we are building an ecosystem of fully decentralized financial applications on leading L1 blockchains like Ethereum and TON. We educate, invest, accelerate and build. Powered by the [Orbs Network](https://www.orbs.com/)._
 
 
-### a. Practical decentralization
+**a. Practical decentralization**
 
 What is the true innovation behind crypto and blockchain? We believe the disruption is decentralization. The ability to build practical organizations that work towards a clear business goal, yet are not controlled by any centralized entity. Organizations that are both trustless and permissionless.
 
@@ -31,7 +31,7 @@ While this idea is applicable to many industries, it is primarily applicable to 
 Practical decentralization dictates a level playing field. It does not mean that everybody is equal, but all players in the ecosystem must have equal access and compete on equal grounds.
 
 
-### b. Radical transparency
+**b. Radical transparency**
 
 Practical decentralization dictates a level playing field - this requires that all players have equal and absolute access to all data and all source code of a dapp. If transparency is not absolute, the parties privy to insider knowledge would have an unfair advantage.
 
@@ -40,7 +40,7 @@ This principle is paramount in the blockchain infrastructure layer. All users mu
 All parts of a dapp must be open source. Its entire backend must be run as smart contracts on-chain, with published source code that has been verified to compile the bytecode that was deployed.  The frontend must be provided to users as a non-minified non-uglified version that they can easily run on their own.
 
 
-### c. Community governance
+**c. Community governance**
 
 Practical decentralization dictates a level playing field - this implies that any decision that changes the rules of the game and modifies the behavior of the protocol in any way, such as an upgrade of a dapp’s code, must undergo proper community governance.
 
@@ -49,7 +49,7 @@ Dapps are generally expected to have an incentive system revolving around a toke
 Users should have complete and absolute access to all historic votes and resulting governance decisions. Users should also be encouraged to audit the voting process based on immutable chain data and see for themselves that the majority of stake has prevailed.
 
 
-### d. Composable stack
+**d. Composable stack**
 
 To allow a DeFi ecosystem to reach its full potential, all participating protocols must see themselves as part of a protocol stack that is freely composable. Composition allows the output of one protocol to be directed into the input of another.
 
@@ -58,7 +58,7 @@ To permit composition, every dapp should be consumable by other dapps. Since all
 Patterns of composition are not necessarily predictable. Protocols may be combined in ways that were not intended by their original creators to solve problems that were not originally anticipated.
 
 
-### e. Sustainable tokenomics
+**e. Sustainable tokenomics**
 
 Dapps are generally expected to have an incentive system revolving around a token. This incentives layer is what allows the actions of independent users of this decentralized system to converge around pre designed goals.
 
@@ -67,7 +67,7 @@ The market forces of all participants that deal in this token constitute an econ
 An economy that is not sustainable will eventually spiral to its own death. Economies must be made resilient to adverse conditions and must be designed under the assumption that not all players have the system’s best interest at heart.
 
 
-### f. Responsible risk
+**f. Responsible risk**
 
 In the domain of smart contracts, code is law. If a contract’s implementation allows it to be abused in a manner unforeseen by its creator and its users, this abuse is considered valid. Code does not have intent, nor subjective interpretation of its purpose.
 
@@ -76,7 +76,7 @@ Successful DeFi applications often contain significant amounts of user funds in 
 Creators and users must collaborate continuously to minimize this risk. Code should be changed slowly and after thorough community review. Security audits are encouraged, yet their existence does not guarantee protection.
 
 
-### g. Fair launch
+**g. Fair launch**
 
 Dapps are generally expected to have an incentive system revolving around a token. Tokens are often distributed to parties during protocol launch to incentivize participation or investment and ensure the launch is successful.
 
