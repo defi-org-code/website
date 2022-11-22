@@ -2,6 +2,7 @@
 layout: pages/announcements/All
 
 list:
+  - ../the-open-defi-notification-protocol-case-study-alpaca-finance/index.md
   - ../the-open-defi-notification-protocol-now-supports-compound-finance/index.md
   - ../the-open-defi-notification-protocol-now-supports-notional-protocol/index.md
   - ../the-open-defi-notification-protocol-spotlight-trader-joe/index.md
