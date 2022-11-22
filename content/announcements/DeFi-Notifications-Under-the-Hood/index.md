@@ -3,12 +3,11 @@ layout: pages/announcements/AnnouncementHandler
 backButton:
   - ../back-button.md
 
-date: Jul 21
-read_text: 3 min read
-link: defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol
-image: assets/images/announcements/defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol/main.jpeg
-title: "DeFi.org & DappRadar Launch $100k Developers Grant for The Open DeFi Notification Protocol!"
-posted_at: posted at Medium
+date: Nov 22
+read_text: 5 min read
+link: DeFi-Notifications-Under-the-Hood
+image: assets/images/announcements/DeFi-Notifications-Under-the-Hood/bg.jpg
+title: "The Open DeFi Notifications Protocol - What’s Under the Hood?"
 author: Defi.org
 socials:
   - /announcements/authors/defi/socials.md
@@ -16,86 +15,103 @@ related:
 description: ""
 ---
 
-📢📢 CALLING ALL DEVELOPERS!!
+If you are familiar with the world of DeFi, you probably share the pain of constantly having to stay up-to-date with your positions across different projects manually.
 
-[DeFi.org ](https://defi.org/)is excited to launch a new $100,000 developer grant program, in collaboration with [DappRadar](https://dappradar.com/), for The [Open DeFi Notification Protocol](https://defi.org/notifications/).
+[The Open DeFi Notifications Protocol](https://defi.org/notifications/) is an open-source and decentralized service that combines the usefulness of mobile push notifications with the trustlessness of the blockchain’s decentralization concept.
 
-![](/assets/images/announcements/defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol/2.png)
+From a user standpoint, it's as simple as downloading an app from the [iOS](https://apps.apple.com/il/app/defi-notifications/id1588243632) or [Android app](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp&pli=1) stores, scanning your wallet QR, and selecting which notifications you’d like to subscribe to. From this point on, whenever there’s a change in the blockchain that meets certain criteria, you’ll be immediately notified via a push notification.
 
-The Open DeFi Notification Protocol by [defi.org](https://defi.org/) is a free-for-use, community-inspired initiative to provide users with decentralized and free mobile notifications for all sorts of on-chain events. The Protocol is powered by the [Orbs network](https://www.orbs.com/) and will be executed by its decentralized network of independent nodes, known as the Orbs Guardians.
+![banner](/assets/images/announcements/DeFi-Notifications-Under-the-Hood/image1.png)
 
-### $100,000 Developer Grant Program!
 
-This grant will focus on teams contributing new projects to the Notification protocol!
+The backbone of the system consists of three collaborating components which together allow a very secure and robust engine while maintaining high flexibility regarding integration of all kinds of DeFi projects across multiple blockchains. 
 
-The Open DeFi Notification Protocol is an open-source project allowing anyone to contribute and integrate notifications. With a quick and simple integration on Github, developers can provide free mobile notifications for any DeFi project for important events like accumulated pending rewards, price swings, near liquidations, stop loss, contract upgrades, new governance votes and more.
+Now let’s understand how this is done under the hood….
 
-Grant details:
+![flow](/assets/images/announcements/DeFi-Notifications-Under-the-Hood/image2.jpg)
 
-- Start date: 30/05/22
-- End date: 30/09/22
-- Duration: 4 months
-- Grants: Available total of up to $100,000, with up to $10k per dev team
 
-Winners and final grant amounts will be chosen by a committee of the defi.org mentors who will score entries based on the following parameters:
+### Project Integration Code 
 
-1.  Project contributions: team must contribute at least 1 project to be eligible for receiving the grant. However, more contributions will earn more points from the judges.
-2.  Active notifications: The more active notifications for your project contributions, the better!
-3.  Innovation: Teams are encouraged to make use of the existing projects and use-cases found in this [repo](https://github.com/open-defi-notification-protocol/projects). However, new and innovative use cases and integrations will earn extra points.
-4.  Social media presence: At least one tweet announcing your contribution tagging @orbs_network, @DappRadar, and @DefiOrg. However, additional social media activities such as educational blog posts, tutorial videos, etc., will get extra consideration from the judges.
+The first component in the system is the project integration code.
 
-Once ready, dev teams need to submit their entry in this [FORM](https://docs.google.com/forms/d/e/1FAIpQLScWXOXHC0MkUiDwclLVw82gWzx60TAu5cORGAqYM0sKLLGjxg/viewform?usp=pp_url).
+This is a super-simple and straightforward JS class that defines the conditions that need to be checked in order to know whether a notification should be sent or not. This is the only part of the system that consists of dynamic code, and needs to be implemented to integrate new DeFi projects or new notifications for existing projects.
 
-A DeFi.org mentors committee will select winners, in their sole discretion, based on the criteria above.
+To integrate, you’ll need to implement two methods:
 
-**So what are you waiting for?!**
+1. **onSubscribeForm** - this method should return a json object that describes the form in the mobile app that will be shown to the user to allow subscribing to a certain notification. So, for example, if you want to set up a notification that should be sent when a certain threshold is reached, the form should include an input to allow setting this threshold.
+2. **onBlocks** - this method is the actual testing of the notification condition, so this is the method that needs to implement the code that queries the blockchain and checks whether we need to send a push notification.
 
-**Join us to earn up to $100,000 in developers grants!**
 
-### Developer Resources
+### Detector 
 
-The best place to start is The Open DeFi Notification Protocol [Github](https://github.com/open-defi-notification-protocol), specifically this [README](https://github.com/open-defi-notification-protocol/projects/blob/master/README.md) file.
+The second component is the Detector.
 
-As mentioned above, anyone can contribute to the protocol. All this requires is implementing a simple JavaScript web3 class that extracts the notification from the chain data.
+This is the “heart and soul” of the DeFi Notifications Protocol, and it is this module that does the actual execution of the project integration code. The Detector constantly queries each of the supported blockchains and tests all notification subscriptions, and if it finds a notification criteria which is met, it calls a push service to send a notification to the user.
 
-This class is then contributed via PR to the protocol [Github repo](https://github.com/open-defi-notification-protocol/projects). The whole process takes about 30 minutes for someone familiar with the project's smart contracts. There's no need to run any backend, develop any UI or make any modification to the project's smart contracts.
+Communication between the detector and push notifications provider (Firebase Messaging) is secured via ethereum based signatures.
 
-When a new user registers for this notification in the app (available on both [iOS](https://apps.apple.com/il/app/defi-notifications/id1588243632) and [Android](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp)), the protocol's many alert nodes will start executing the newly contributed JavaScript web3 class against every new mainnet block to extract fresh notifications. When any fresh notification is returned, the alert nodes will trigger a push notification and send it to the user.
 
-Here are additional information and links:
 
-- [Github](https://github.com/open-defi-notification-protocol)
-- [Website](https://defi.org/notifications/)
-- Overview [blog post](https://medium.com/@defiorg/introducing-open-defi-notification-protocol-95a8712a94e0)
-- Notification app: [iOS](https://apps.apple.com/il/app/defi-notifications/id1588243632), [Android](https://play.google.com/store/apps/details?id=com.orbs.openDefiNotificationsApp)
-- [Twitter](https://twitter.com/DefiOrg)
-- [Telegram](https://t.me/defiorg)
-- [DeFi.org](https://defi.org/) website
 
-### Integration Example: Aave
+### Orbs Layer 3 
 
-Here is the integration that allows Aave users to get notified when their position health factor drops below 1.1:
+The fourth and final component is [Orbs Layer 3](https://www.orbs.com/network/) (L3 for short).
 
-![](/assets/images/announcements/defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol/3.png)
+This part of the system is responsible for auditing a portion of the notifications sent. It independently verifies that the test, which was done by the detector, for the specific parameters (user wallet, project contract etc) and specific state of the blockchain (block height) has in fact come out true and a notification should actually be sent.
 
-Once the PR is accepted, the project will immediately appear inside the mobile app with this new notification type enabled. You can control the project label, logo and colors by adding a small JSON file next to the class.
+Orbs L3 is a decentralized layer which takes advantage of the Orbs Guardians and ensures a secure execution space with zero trust required.
 
-![](/assets/images/announcements/defi-org-dappradar-launch-100k-developers-grant-for-the-open-defi-notification-protocol/3.png)
+Just as before, each data packet sent between the detector and L3 is digitally signed using ethereum-based signatures with the guardian node wallet. 
+
+
 
 # separator
 
-DeFi.org is super excited to launch its first ever developers grant together with DappRaddar, the leading and most popular websites for crypto devs.
+### A Notification Standard for Leading DeFi Projects
 
-We are looking forward to seeing what projects developers can contribute to the Open DeFi Notification Protocol in order to make it the standard notifications protocol for DeFi apps.
+The Open DeFi Notification Protocol is an open initiative to provide users with decentralized and free mobile notifications for on-chain events. 
 
-Don't hesitate to contact us at the defi.org [Telegram channel](https://t.me/defiorg) for more information!
+The protocol has an impressive lineup of leading DeFi projects who have already been integrated into the Open DeFi Notification app for the benefit of their users, including among others: Aave, Uniswap, SushiSwap, QuickSwap, PancakeSwap and more…
+
+**All in all, the app supports 20 protocols across 5 networks: Ethereum, BSC, Polygon, Fantom and Avalanche!**
+
+![ecosystem](/assets/images/announcements/DeFi-Notifications-Under-the-Hood/image3.png)
+
+
 
 # separator
 
-**About DeFi.org**
 
-The DeFi.org Accelerator is dedicated to supporting research, development of open-source software, and community engagement. The accelerator looks for projects that are built on the principles of fair distribution, community ownership, innovation, responsible approach to risk, sustainable economics and composability with the broader ecosystem.
+The Protocol has been implemented fully by the [Orbs network](https://www.orbs.com/) and will be executed by the Orbs Guardians, making this the 1st fully decentralized implementation of a notification protocol.
 
-Participants get a variety of benefits, including mentorship, funding opportunities, and market exposure.
+Become involved and contribute:
+https://github.com/open-defi-notification-protocol
 
-Interested teams can apply to participate at [https://DeFi.org/](https://defi.org/).
+Learn more about the Open DeFi Notification Protocol [here](https://defi.org/notifications/).
+
+Proudly born in the [defi.org](http://defi.org/) accelerator, join our [Telegram channel](https://t.me/defiorg) for more updates!
+
+
+
+# separator
+
+
+**Please Note**
+
+_The Open DeFi Notification Protocol is a beta version that is still under active development, and all underlying digital assets, blockchain networks and DeFi platforms are also subject to ongoing development, and as such, the protocol or the underlying platforms:_
+
+_(a) may contain bugs, errors and defects,_
+
+_(b) may function improperly or be subject to periods of downtime and unavailability,_
+
+_(c) may result in total or partial loss or corruption of data or a delay or a failure to send or receive expected notifications._
+
+
+_Any use of any platform, application and/or services described here is at your own risk and you are solely responsible for all transaction decisions. For more information, please see the [Terms of Use](https://defi.org/defi-notifications-terms-of-use/index.html) and [Privacy Policy](https://defi.org/defi-notifications-privacy-policy/index.html)._
+
+
+
+
+
+
