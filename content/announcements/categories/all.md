@@ -2,6 +2,7 @@
 layout: pages/announcements/All
 
 list:
+  - ../Announcing-the-New-DeFi-org-Website/index.md
   - ../the-open-defi-notification-protocol-now-supports-compound-finance/index.md
   - ../the-open-defi-notification-protocol-now-supports-notional-protocol/index.md
   - ../the-open-defi-notification-protocol-spotlight-trader-joe/index.md
