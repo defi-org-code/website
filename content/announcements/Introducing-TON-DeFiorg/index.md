@@ -62,7 +62,7 @@ The designers of TON went into great lengths to make sure that all core TON bloc
 
 –-
 
-##### Centralization puts users at risk
+#### Centralization puts users at risk
 
 
 Decentralized apps are trustless, meaning users are not required to trust their developers. The developers are not able to harm the users in any way that isn’t included in the app’s code, even if they tried.
@@ -73,7 +73,7 @@ Users may get hurt even if you don’t intend to be malicious. If your credentia
 
 –-
 
-##### Centralization reduces app value
+#### Centralization reduces app value
 
 Consider the most successful apps on blockchain: The [Bored Apes](https://boredapeyachtclub.com/) NFT collection has had individual items sold for over a million dollars. The lending DeFi apps [Compound](https://compound.finance/) and [Aave](https://aave.com/) have tens of billions of dollars deposited in their smart contracts.
 
@@ -87,7 +87,7 @@ Decentralization is the answer.
 
 –-
 
-##### Decentralized apps are unstoppable
+#### Decentralized apps are unstoppable
 
 Nobody can stop Bitcoin because it’s decentralized. There’s no single entity that runs it. 
 
@@ -120,7 +120,7 @@ There has long been a need for an infrastructure layer that can reach billions o
 Defi.org is excited to contribute educational and development efforts to this initiative for the benefit of the entire community. 
  
 
-##### Project Spotlight
+#### Project Spotlight
 
 Here are a few examples of projects we are contributing to: 
 
